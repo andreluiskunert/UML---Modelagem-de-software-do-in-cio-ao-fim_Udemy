@@ -1,0 +1,307 @@
+Olá bem vindo a aula brinde de orientação a objetos.
+
+Essa aula eu espero que você conheça um pouco os conceitos de orientação objeto conheçam como funciona
+
+esse mundo de programação.
+
+Lembrando que o ML é o nosso grande objetivo deste curso.
+
+Consegue trabalhar apenas com programas com sistemas que são realmente orientados a objetos.
+
+Então minha ideia nesta nesta parte do curso é que você entenda esses principais conceitos da orientação
+
+objeto de estímulo de programação orientada a objetos começar ou esclarecer algumas partes da orientação
+
+seja no objeto é uma entidade que pode ser identificada unívoca mente ver suas propriedades comportamentos
+
+de uma classe é um grupo de objetos similares que compartilham atributos e comportamentos semelhantes.
+
+Como assim tem imaginar que uma classe é sempre a abstração de alguma coisa do mundo real então a ideia
+
+de uma coisa é ideia de um carro.
+
+A ideia de uma pessoa a ideia de algo não é alguma coisa já física não é uma coisa já real.
+
+Apenas o conceito de uma coisa é só uma classe.
+
+O objeto é a instância ação disso objeto.
+
+Então é quando a gente dá a vida coloca alguma coisa para aquela classe.
+
+Então eu tenho a ideia de que é um carro um galpão de hortas tem uma cor Mobile tem um ano.
+
+Quando eu especificar este carro então eu tenho o gol tem o preto e branco eu estou especificando esses
+
+itens eu estou criando um objeto trazendo aquela clássica uma ideia ou um modelo Querença para o mundo
+
+real trazendo a criação de um objeto.
+
+Então a orientação a objetos permite que gente modere o sistema utilizando esses conceitos do aluguel
+
+ficando mais fácil programar ficando mais fácil para abstrair as ideias e não bonito consigo ter mais
+
+rendimento para desenvolver códigos também é mais produtivo do trabalho do desenvolvedor do programador
+
+então isso tem aqui alguns exemplos que podem ser objetos considerados objetos ou uma pessoa o veículo
+
+um tipo de moeda dinheiro equipamentos eletrônicos qualquer coisa que eu encontro de semelhanças entre
+
+eles eu consigo especificar que o objeto já criado.
+
+A ideia da classe criada o objeto em relação a uma classe que significa isso significa que uma classe
+
+tem a ideia.
+
+O conceito de que alguma coisa enquanto objeto e o cidadão com o hijab valores de acordo com aquela
+
+abstração porque aquele modelo o os indivíduos daquela classe estão os nossos objetos em geral a maioria
+
+dos objetos são compostos pois sempre que podemos dividimos em partes menores.
+
+Assim o sistema seria então um grande objeto de outros objetos formando um mecanismo.
+
+é válido ressaltar que o objeto ele tem características não posso falar que são adjetivos daquele objeto.
+
+Então ele tem uma cor tem um nome e um tamanho mas ele também possui ações e possui métodos.
+
+Ele consegue receber e enviar ordens então posso achar ações daquele objeto o objeto pessoa por exemplo
+
+ele pode falar.
+
+Ele pode colar.
+
+Ele pode andar.
+
+Ele tem várias ações e tem esses mecanismos para trabalhar para funcionar corretamente
+
+dentro desse universo.
+
+Eu tenho algumas coisas que ajudam a trabalhar algumas características algumas alguns macetes não falasse.
+
+Então eu tenho de grande parte dos sistemas que funcionam em sistemas um pouco mais robustos ou têm
+
+o uso da herança a herança o que é isso e o compartilhamento de atributos e operações em ações entre
+
+classes com base em um relacionamento hierárquico que significa isso significa que ele tem a abstração
+
+de alguma coisa eu uso outros elementos podem utilizar essas abstrações.
+
+Por exemplo eu tenho um automóvel o automóvel ele possui cor ele possui nome que possui um ano.
+
+Isso é algo bem genérico todos os automóveis são essas características.
+
+Então este automóvel faz parte de uma generalização que que é isso remova de uma ou mais características
+
+de determinada classe de modo a formar uma classe mais abrangente.
+
+é algo genérico que todos os automóveis motéis por exemplo um automóvel esportivo ou especializar.
+
+Aquela ideia do automóvel significa que eu vou pegar todas as características que o automóvel tem e
+
+eu vou adicionar mais características que só o automóvel esportivo tem por exemplo o câmbio mais potente
+
+com um câmbio de seis marchas duplo no escapamento ou coisa parecida.
+
+Sobre o automóvel esportivo ele tem então o nome o modelo e o Ano do automóvel convencional tem que
+
+todos os automóveis têm.
+
+E vai ter algumas características específicas que só o automóvel esportivo tem.
+
+Então essa é a especialização que é quando dada uma determinada classe ou categoria criamos uma outra.
+
+O novos atributos ou os serviços que a tornam mais distintas ou seja ações que têm ela mais restrita.
+
+Com isso eu consigo eu consigo ganhar o rendimento ganhar uma performance na criação dessas minhas classes.
+
+Porquê.
+
+Porque eu vou descrever menos código vou escrever o código do automóvel genérico uma única vez e não
+
+preciso escrever pelo automóvel desportivo automóvel ou sedã o automóvel ou de qualquer outra categoria
+
+possível.
+
+Então ganho esse rendimento com a performance além de um novo código além do meu sistema se tornar um
+
+pouco mais mais fácil de trabalhar um pouco mais organizado.
+
+A arquitetura fica mais simples de ser utilizada
+
+na classe cada subclasse incorpora herda essa herança todas as características da sua Superclássico
+
+e acrescenta suas próprias e específicas características que é a especialização.
+
+A vantagem disso é a simplificação da codificação.
+
+Escrevo menos o esquema de uma forma mais organizada.
+
+Eu tenho alterações em classes e são propagadas pracinhas.
+
+Eu preciso fazer alguma coisa que os automóveis vão receber.
+
+O jogo recebeu uma nova codificação o novo código o identificador de todos automóveis tem que ter o
+
+poder que existe em todos os automóveis.
+
+Não queremos só uma vez.
+
+Todo mundo vai receber essa atualização.
+
+é mais simples e mais fácil são modelados porque eu tenho eu uso de código.
+
+Aproveito o código eu aproveito o conhecimento e aproveito características e aproveito ações.
+
+Então eu ganho muito comuns aqui nós temos outros modelos modelo temos a generalização nessa parte de
+
+cima do nosso diagrama.
+
+Hoje eu tenho mamíferos mamíferos possuem atributos focinho adjetivos e características então todo mamífero
+
+tem uma idade.
+
+Todo mamífero tem um habitat específico e sua milícia.
+
+Ele tem metros e tem ações ou uma missa sem exceção produz leite.
+
+Agora eu tenho algumas especializações nisso.
+
+Eu tenho um mamífero vaca.
+
+Eu tenho um amigo bicho preguiça.
+
+Eles tanto a vaca quanto a preguiça cuidam de mamíferos.
+
+Ambos são mamíferos a vaca em idade em habitat a preguiça ainda tem habitat a vaca e a preguiça produzem
+
+leite legal.
+
+Eu aproveitei isso que desenhei idade no habitat e a produção de leite uma única vez.
+
+A VACA VAI USAR A preguiça vai usar agora a vaca tem ações específicas da vaca.
+
+A vaca arrasta a vaca Ela mina a preguiça não a preguiça faz especificamente a preguiça.
+
+NADA SABE NADA.
+
+A vaca não.
+
+Ou seja eu fiz apenas a especialização o que é diferente em relação a uma faca.
+
+é uma preguiça que engloba toda a classe de mamífero ou seja eu escrevi uma classe genérica de mamíferos
+
+de que todos os mamíferos possuem especialização.
+
+Não foi só a vaca foi a língua que todos malditos fazem.
+
+O que a preguiça faz além do que todos os mamíferos também fazem galinha.
+
+Conheço bem um rendimento com organização.
+
+Eu escrevo menos código com isso o que torna muito mais simples o meu deslocamento a minha manutenção.
+
+Eu tenho outra característica na orientação objeto que eu vou lhe for polimorfismo polimorfismo vem
+
+lá do meio de muitas formas que significa isso significa que eu consigo aproveitar o conhecimento sobre
+
+escrever algumas características então posso imaginar que eu tenho uma classe aplicação nessa aplicação.
+
+Ela possui uma característica ou algum valor algo que escrevi lá quando contendo algo mais e até uma
+
+ação que é calcular o saldo que é verificado.
+
+Só que a poupança calcula o saldo de uma forma o rendimento específico da poupança de 5 6 por cento
+
+ao ano.
+
+A renda fixa também vai calcular o sal só que ela tem características específicas como calcular Caniçal
+
+tem uma outra regra ela pode utilizar o tipo de rendimento diferente maior ou menor da poupança mais
+
+diferente que significa.
+
+Isso significa que as classes de poupança a classe de renda fixa elas vão fazer o saldo se elas quisessem
+
+utilizar o saldo existente de uma aplicação convencional ou Guerin.
+
+Mas há uma coisa específica daqui então elas herdam a característica saldo bruto saldo o valor que escreveu
+
+o saldo mas o cálculo do saldo a forma de calcular o saldo elas fazem de forma específica.
+
+Então elas estão sempre escrevendo elas estão refazendo neta estão mudando a forma de fazer o saldo.
+
+O método saldo.
+
+O cálculo do saldo ok.
+
+Isso é o polimorfismo então em programação o polimorfismo é utilizado em inúmeras situações que na simplificação
+
+do código e aumentam as habilidades que a não na habilidade e a forma de fazer manutenção do código
+
+e a capacidade de fazer manutenção.
+
+Então o polimorfismo pode ser a sobrecarga de método sobre a escrita de um método o desmatamento de
+
+conjuntos de objetos com e até uma forma no Java uma linguagem de programação muito específica que é
+
+o uso de genéricos certo.
+
+Então o que é isso.
+
+Eu soube descrever o método que tem o mesmo nome para descrever o tipos de parâmetros que evoluiu o
+
+método.
+
+Tudo isso é uma forma de polimorfismo é fazer alguma coisa já existente compreendendo que fazer isso
+
+uma forma específica para minha casa minha classe da minha especialização o encapsulamento.
+
+Uma outra técnica de orientação a objeto que é esse comportamento no encapsulamento o objeto que apresenta
+
+os seus comportamentos seus métodos porém não informa o espaço que são realizados para que ela tenha
+
+que ele ser executado.
+
+Então tenho propriedades como tipo tamanho etc que não são conhecidos não só não são conhecimentos necessários
+
+para utilizar ou tirar o objeto eu tenho um acesso indireto os atributos.
+
+Eu tenho uma atribuição correta das responsabilidades de objetos.
+
+Parece um pouco confuso mas se você já mexeu com alguma linguagem de programação você já criou um método
+
+GAT do 7 para acessar alguma propriedade para acessar algum atributo ou uma variável.
+
+Então você não acessa diretamente aquela variável nome idade sexo.
+
+Você acessa através de um método 7 nome 7 idade você altera o valor verdade traz 1 metro 1 7 9 1 7 idade.
+
+Com isso é possível fazer validações daquela propriedade existe ela é nula.
+
+Se eu posso realmente escrever naquela propriedade se eu não infringe nenhuma regra de negócio então
+
+o encapsulamento das ações da propriedade trabalhar as minhas variáveis com os meus tipos primários
+
+de informação então consigo ter um pouco mais de regras de negócio na gerência na modelagem no meu sistema
+
+utilizando o encapsulamento uma forma bem simples separei algumas referências para que você possa pesquisar
+
+um pouco mais de conhecimento orientação objeto.
+
+Então acredito que você vai ser interessante que você pesquise você se oriente um pouco mais se você
+
+não tem nenhuma proximidade com programação se você tem já algum conhecimento em programação orientada
+
+a objetos mais vá fazer a documentação pra gente que trabalhe e tudo mais.
+
+Então é interessante.
+
+Ele é sempre bom você ter essa base seja para programar seja pra fazer uma documentação.
+
+O ML que é necessário é necessário eu espero que você tenha gostado dessa essa parte do brinquedo no
+
+curso.
+
+Espero que você tenha aprendido bastante se ficou alguma dúvida nos comentários.
+
+Vamos conversar bastante e até uma aula.

@@ -1,0 +1,103 @@
+Nessa aula falaremos um pouco sobre ferramentas que a ferramenta Keys é um software que ajuda a fazer
+
+a modelagem.
+
+Claro você pode utilizar sem o papel.
+
+Eu inclusive uso muito papel muito principalmente naquela fase inicial de criar a documentação antes
+
+fazer a primeira inspiração de um diagrama de comunicação em si mais a médio ou longo prazo.
+
+Quando o software vai ganhando maior forma é muito útil muito importante você utilizar uma ferramenta
+
+que isso otimiza ao longo do curso.
+
+O Astra esta é uma ferramenta muito prática de se utilizar muito fácil de se utilizar.
+
+Então vou mostrar para vocês como é que o assaltam
+
+o Astra pode ser encontrado no site da Outlet.
+
+Este site que eu estou aqui.
+
+Este site que é o site da empresa Asta.
+
+Ele está hoje com uma licença eu.
+
+Então você pode baixar e utilizar ele gratuitamente por 20 dias aproximadamente no eBay.
+
+De acordo com o momento da empresa eles podem mudar a regra de acordo com o ideais deles.
+
+Esta ferramenta tem uma licença gratuita para você que é estudante normalmente.
+
+Então você pode baixar ele a instalação é simples tanto para sistemas operacionais Mac quantos se você
+
+também tiveram o Windows nada fora do comum apenas baixar fazer o usuário e instalar o sistema.
+
+O software tentou Manoel Carlos tem alguma dúvida da instalação tanto no ambiente Windows quanto no
+
+ambiente Mac ou até mesmo Linux.
+
+Você pode mandar no fórum uma mensagem para mim eu vou estar ajudando você a botar Justiniano.
+
+Então eu tenho aqui o Asta já instalado e este software aqui.
+
+Ele possui vários diagramas para serem criados eu vou fazer uma breve explicação dos menus do astro
+
+ele aparece pra mim no ambiente Mac aqui em cima cadê você.
+
+Se você estiver com o Windows vai aparecer também no menu normal no menu superior.
+
+Então basta você pode criar por exemplo um diagrama de caso de uso nos games.
+
+Aqui é só clicar aqui no diagrama ou então no menu superior.
+
+Você vai ter também o W.
+
+E você pode escolher neste menu.
+
+Qual é o diagrama que você quer criar.
+
+Tudo mais então neste menu aqui criado o projeto
+
+você vai ter basicamente esta esta visão antes do assalto.
+
+Essa visão aqui do software onde você tem um diagrama já criado pode colocar mini diagramas ao longo
+
+do curso nós vamos criar vários e vários diagramas.
+
+Você terá a visão essas ferramentas aqui do nosso ou na nossa ferramenta nosso amigo nosso permita que
+
+isso basta.
+
+Elas são variadas e são variáveis de acordo com o tipo de diagrama que nós estamos utilizando ao longo
+
+da utilização de cada diagrama de cada atividade do curso.
+
+Eu vou mostrar para vocês como utilizar essa ferramenta para cada tipo de diagrama de diagrama de classe
+
+de sequência de acordo com cada necessidade.
+
+Nós não nos times aqui de forma prática o aceita e vamos fazer a modelagem do sistema modelagem nos
+
+nossos diagramas de negócio de exercícios para que você tenha total Opening desta ferramenta assim como
+
+de como utilizar como modelar o sistema espero que você tenha gostado você consiga instalar agora a
+
+ferramenta na tela o Astra ou então qualquer outra ferramenta à sua escolha se você procurar por exemplo
+
+no Google como editores online o ML é criação de diagramas o ML ou qualquer coisa assim você encontrará
+
+diversas outras opções de software.
+
+Geralmente as 15 para trabalhar então ao longo do curso o.
+
+Mas nada impede que você utilize alguma outra ferramenta à sua escolha ou até mesmo o bom e velho papel
+
+de caneta.
+
+Caso tenha ficado alguma dúvida causando Sequeira ou então alguma coisa mande me mande alguma mensagem
+
+entrar em contato com vocês para esclarecer tudo isso ok.
+
+Obrigado então até se sinal.

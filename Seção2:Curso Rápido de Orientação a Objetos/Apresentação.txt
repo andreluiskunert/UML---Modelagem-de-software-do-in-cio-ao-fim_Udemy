@@ -1,0 +1,13 @@
+Bem vindo ao curso de orientação a objeto esse é um curso rápido introdutório de orientação a objetos
+
+que você está recebendo de brinde ao longo desse curso.
+
+Eu espero que você goste aprenda os principais conceitos de orientação a objetos.
+
+Saia deste curso conhecendo pouquinho mais sobre a criação e modelagem de uma classe afim bolsos e os
+
+seus métodos assim como os principais componentes que estão em volta da orientação a objetos.
+
+Caso você fique com o Dunga não esqueça de mandar a sua mensagem nos fóruns de discussão.
+
+Aproveite o curso até lá.
