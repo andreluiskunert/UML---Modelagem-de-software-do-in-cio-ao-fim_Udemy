@@ -1,0 +1,315 @@
+Olá bem vindo a aula de tipos de diagramas.
+
+é muito importante que você consiga entender um pouco sobre a diferença entre método e metodologia sendo
+
+que método o modo de proceder a maneira de agir.
+
+O meio propriamente é a metodologia e o estudo dos métodos especialmente o método da ciência.
+
+Eu digo isso porque é a linguagem de modelagem.
+
+é um processo e uma ação ml não é o método.
+
+Ela é uma linguagem de modelagem.
+
+A forma de se fazer não é uma metodologia.
+
+O ML não tem noções de processo que é uma parte importante de uma metodologia.
+
+Isso faz segundo fala escolas que são grandes referências na área de engenharia de software a linguagem
+
+de modelagem porque quem deveria realmente utilizar os diagramas porque com os diagramas fica muito
+
+mais fácil e apresenta alguma coisa.
+
+Por exemplo esta figura representa essa figura uma simplificação da realidade.
+
+Ela representaria uma casa onde nós devemos utilizar os diagramas nós fizemos diagramas na transmissão
+
+de ideias a documentação da especificação de um requisito para elaboração de um requisito.
+
+A construção de um software para a construção da documentação de um software é muito importante.
+
+Os diagramas do ML que nós ao estudar são diagramas de casos de uso de classe e objetos diagramas de
+
+Componentes Diagrama de implantação diagrama de sequência Diagrama de comunicação ou colaboração.
+
+A nomenclatura dele vai de acordo com a biografia que você estuda e você busca o diagrama de atividade
+
+e o diagrama de estados.
+
+Todos os diagramas muito importantes para documentação de um projeto tipo de diagrama que nasceu nós
+
+temos visões estáticas em um diagrama.
+
+As visões dinâmicas de um diagrama visão estática um diagrama são diagramas de caso de uso de uma classe
+
+de objeto diagrama de componentes enquanto que as visões dinâmicas são feitas pelos diagramas de sequência
+
+Diagrama de Colaboração de Estado atividade e implantação.
+
+Para tanto diagrama eu preciso utilizar todos esses diagramas.
+
+A resposta é simples não não precisa quais diagramas você precisa.
+
+Você tem que considerar para responder essa pergunta aqui cada diagrama é uma ferramenta.
+
+Cada problema que nós temos no nosso dia a dia necessita de uma ferramenta e ferramentas diferentes.
+
+Então para cada tipo de problema que você for encontrando você vai precisar de um diagrama diferente
+
+para te auxiliar na resolução desse problema.
+
+Ao longo do curso você vai conhecer todos os diagramas.
+
+Isso é importante que você tenha em mente o poder que todos os diagramas em e cada resolução do problema
+
+que cada diagrama vai te proporcionar.
+
+Assim você vai conseguir escolher determinar qual o melhor diagrama para cada problema que você enfrenta.
+
+às vezes você pode precisar de todos os diagramas mas pode ser que você precise de outros diagramas
+
+para resolver o teu problema específico.
+
+Ok vamos agora de acordo com o processo.
+
+Esse processo.
+
+Nós temos na sugestão da OAB MG que é a nossa grande entidade que nos esperamos da diretriz de como
+
+proceder na engenharia de software.
+
+Então nós temos algumas etapas do processo.
+
+Nós temos a concepção a definição a construção e a finalização.
+
+Nessa ordem para realizar toda a estrutura do nosso software então temos algumas características do
+
+processo exigidas pela UE FMI e a sua aplicação orientado a casos de uso que signifique que ela é dada
+
+a funcionalidades centrada na arquitetura iterativo incremental que significa significa que o nosso
+
+projeto nosso software vai ser orientado a funcionalidades ao tio o nosso software deve fazer.
+
+Ele é centrado na arquitetura.
+
+Como organizar tudo isso de uma forma simples de forma objetiva de uma forma que consiga ter sempre
+
+a escalabilidade.
+
+O nosso software iterativo incremental significa que ele nunca vai ter fim e nunca vai morrer.
+
+Significa que esse software.
+
+Essa documentação vai ser realmente válida tem que estar sempre sendo revista.
+
+Ainda versão 1 2 3 versões eu sempre vou ter a documentação do meu software de uma forma incremental.
+
+O comércio com a parte simples façam mais um incremento façam mais uma parte deste meu software mais
+
+uma parte mais uma parte que é mais uma versão mais uma versão mais uma versão sem que mantendo ela
+
+viva adicionando o que é novidade e movendo que não é mais uso usual no nosso software na fase de concepção
+
+nós vamos pensar no plano de negócios na definição do escopo do nosso projeto.
+
+Vamos definir os próximos passos a serem tomados na elaboração deste projeto usando esse software.
+
+Por exemplo há um sistema para cálculo de uma vídeo locadora nem mais tão utilizada assim uma locadora
+
+de aviões mas é um grande exemplo um exemplo muito fácil de palpável trabalhar.
+
+Vamos imaginar a concepção dessa vídeo locadora.
+
+Na definição nós vamos fazer a captura de requisitos ou falar com o nosso cliente vamos fazer pesquisa
+
+vamos fazer alguns brainstorming ou algumas reuniões onde colocar muitas idéias e vamos verificar o
+
+que é requisito para esse software.
+
+Vamos fazer a definição dos casos de uso que são os casos de uso desse caso de uso ou expulsou as funcionalidades
+
+quem interage com cada funcionalidade.
+
+Quem é o ator nessa.
+
+A importância desses casos de usos e capturar os requisitos funcionais que são o que o nosso software
+
+deve fazer.
+
+é aqui que esse software de funcionalidade.
+
+A gente vai direcionar a implementação e os testes de acordo com esses requisitos de acordo com as funcionalidades
+
+que são esperadas para o nosso software.
+
+Então nós vamos desenvolver.
+
+Nós vamos testar as funcionalidades com o nosso cliente fique satisfeito com o software entregue para
+
+ele também defina definição.
+
+Nós definimos.
+
+Nós temos a definição de um modelo de domínio do nosso sistema.
+
+O que que é isso e até onde vai o nosso sistema até onde é responsabilidade do nosso sistema.
+
+O que o nosso sistema faz é tão importante definir quanto o que o nosso sistema não faz.
+
+Preciso deixar isso muito claro.
+
+O que eu faço ou não faço desse sistema pensando no nosso exemplo vídeo locadora Vídeo locadora.
+
+Há funcionários que mantêm a loja e realizam atendimento dos clientes.
+
+O atendimento abrange desde o aluguel de filme hoje um DVD um burguês na sala das locadoras até consulta
+
+sobre sua comunidade.
+
+Queremos também possibilitar que os clientes consultem eles mesmos os filmes disponíveis para aluguel
+
+em computadores muitos pela loja.
+
+Isso é o que nossa locadora faz com o nosso sistema vai fazer la vai proporcionar durante a fase de
+
+construção.
+
+Nós temos várias situações o que se vê em cada etapa em cada parte do processo do nosso sócio em cada
+
+entrega do nosso software.
+
+Nós vamos fazer isso.
+
+Existem várias metodologias para isso metodologias ágeis muito comuns hoje como por exemplo mais documentação
+
+e documentos.
+
+Cada etapa cada parte que é feita toda alteração do que tem de novo tudo o que sai não é mais utilizado
+
+o que não faz mais sentido para nossa sorte.
+
+Nós adicionamos nessas iterações a transição e a fase de aperfeiçoamento e melhoria.
+
+Realmente o que entrou e saiu.
+
+Melhorar o que já está lá e escrever mais aprofundado determinada documentação do nosso estoque temos
+
+agora a visão dos diagramas estáticos do nosso software.
+
+Nessa modelagem estática nós procuramos capturar o comportamento do sistema suas características e a
+
+relação entre as funcionalidades e objetos.
+
+Os diagramas podem ser usados na modelagem estática que são os diagramas de casos de uso diagramas classe
+
+ou diagrama de objetos.
+
+O diagrama de componentes esses diagramas dá uma visão do sistema como um todo.
+
+Não vou mudar mas não vai dar uma visão dita de interação com o sistema me dá uma visão de que é o sistema
+
+que o sistema faz.
+
+Quais são as funcionalidades do sistema.
+
+Quais são os objetivos do sistema em volta desse sistema.
+
+Isso é modelagem estática.
+
+Essa vai ser a visão estática quarto que temos também os diagramas dinâmicos os diagramas dinâmicos.
+
+Eles vão procurar capturar o comportamento que um sistema tem ao longo do tempo ao longo de um processo
+
+ao longo da utilização do sistema.
+
+O comportamento do sistema orientado a objeto pode ser observado pela comunicação entre os objetos que
+
+a Comunicação e Artes ok de mensagens e de objeto seja o acionamento de um método de mensagem é o relacionamento
+
+dinâmico existente entre os objetos uma interação entre os objetos.
+
+Quando acham o método de um objeto o leque lá na nossa nossa classe não é nosso mas o modelo de orientação
+
+objeto não tinham uma função aciona uma função ou alguma coisa assim ainda não é dinâmica.
+
+A comunicação entre os objetos ocorre pela troca de mensagens.
+
+Nós vamos falar boca de mensagens entre o objeto.
+
+Toda vez que o método é acionado no nosso objeto Bradesco chamo o método que eu chamo uma função.
+
+Essa ação nós entendemos que é a troca de uma mensagem quando ela é enviada onde ela é recebida.
+
+Quando eu chamo o método como o método é chamado os diagramas para modelagem dinâmicas podem ser diagramas
+
+de sequência ou diagrama de colaboração ou diagrama de estados.
+
+O diagrama de atividade na modelagem dinâmica as mensagens são muito importantes e elas que vão mudar
+
+o comportamento do nosso software.
+
+Essa mensagem é a forma de comunicação entre dois objetos quando uma mensagem manda o objeto fazer alguma
+
+coisa é implementada como uma chamada de operação ou chamada de um método.
+
+Durante a fase de análise uma mensagem pode ser vista como a solicitação de um serviço de uma informação.
+
+Então o usuário tem que fazer o login e seu Mac então fazer uma ação naquele meu usuário fazendo login
+
+no meu site.
+
+O sistema em programação uma mensagem e invocação de uma operação é chamado de uma função chamada de
+
+o método
+
+a mensagem até algumas representações lá pode ter uma representação de modo simples e é representada
+
+uma mensagem no nível simplificado sem revelar maiores detalhes apenas falando que o objeto está enviando
+
+uma mensagem para o objeto 2 esta mensagem ela pode ser síncrona ou a 5 uma mensagem xinga implementada
+
+com a chamada difusão onde quem chama aguarda o fim da operação para continuar sua execução enquanto
+
+que uma chamada assíncrona é implementada com uma chamada de função também mas quem chama não aguarda
+
+o fim da operação para continuar sua execução significam que quando eu tenho uma chamada single sistema
+
+o objeto envia uma mensagem para o objeto 2 e ele aguarda o objeto 2 processará e dá o retorno para
+
+essa meta ou objeto.
+
+Esse retorno pode ser uma resposta booleana verdadeiro ou falso pode ser o valor que ele calculou Listening
+
+um texto não importa qual vai dar o retorno para um objeto como foi o objeto que solicitou o quanto
+
+ama ou chamada assíncrona ela apenas envia não aguarda o retorno quando houver o retorno se houver um
+
+retorno médio vai ser acionada e vai dar o local Albert vai dar o retorno aquele objeto que vai ou não
+
+tomar alguma atitude vai fazer alguma coisa certa.
+
+Isso é muito bom para não travar o sistema e não ter uma tendência naquele sistema não ter que colocar
+
+sempre aquela tela de login aguardando alguma coisa aguardando uma chamada que acaba analisando o usuário.
+
+As lotações de certas elas podem variar um pouco de acordo com a ferramenta 15 que você estiver utilizando
+
+se você estiver utilizando basta.
+
+Por exemplo ela pode utilizar uma anotação um pouco diferente de uma demo de uma outra ferramenta.
+
+Mas o significado da troca de mensagem simples síncrona e assíncrona é o mesmo e é uma forma universal
+
+de troca de mensagens.
+
+De acordo com a problemática do teu sistema em cada caso você deve fazer a escolha entre troca de mensagens
+
+cinco anos ou a cinco anos o teu sistema espera que eu tenha entendido essa parte da aula tenha entendido
+
+simples diagramas estáticos e dinâmicos.
+
+As trocas de mensagens caso tenha ficado alguma dúvida de uma mensagem com a mensagem Vamos discutir
+
+bastante e até a próxima aula.

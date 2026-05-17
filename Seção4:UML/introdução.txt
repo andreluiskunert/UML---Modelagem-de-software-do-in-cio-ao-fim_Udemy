@@ -1,0 +1,177 @@
+Lá divina na de o ML você deve tá cansado de mexer com tanto papel ficar completamente improdutivo perdido
+
+sem saber exatamente o que você está fazendo.
+
+Algum cliente já deve ter pedido muita coisa para você em um determinado dia você fala não.
+
+Beleza vou fazer.
+
+Legal começa fazer o cliente do nada muda tudo e você começa a ficar realmente perdido sem saber muito.
+
+Como trabalhar com isso.
+
+Então você acaba trabalhando sempre sozinho não consegue escalar você não consegue ter produtividade.
+
+Porquê.
+
+Porque falta um pouco de planejamento falta organização falta um poder de escala de escalar o seu trabalho
+
+de escalar produtividade.
+
+Com isso pra isso olhares você precisa ter documentação você precisa se organizar fazer um planejamento
+
+e manter essa documentação viva.
+
+Manter essa documentação viva sempre sendo abastecida atualizada tudo mais ao longo do curso.
+
+Ao longo do curso nós vamos estudar os principais diagramas o ML que são o diagrama de casulos de classe
+
+objetos componentes implantação sequência colaboração estados e atividades com esses diagramas.
+
+E você será capaz de elaborar toda a documentação do seu projeto e estruturar o seu produto e dar uma
+
+porta de entrada para novos desenvolvedores para novas pessoas e até mesmo discutir regras de negócio
+
+com seu cliente falar o que deve ou não deve ser feito como deve ser feito.
+
+Entender mais sobre tudo o que está em volta do seu produto e aí você consegue escalar o seu projeto
+
+Escalar o seu produto colocar mais pessoas trabalhando em paralelo.
+
+Você consegue ter uma visão geral de tudo o que influencia o outro produto tudo o que influencia o seu
+
+negócio aquele projeto aquele sistema fica muito mais fácil.
+
+Então o controle disso fica muito mais organizado.
+
+Tudo isso você consegue ter mais rendimento melhor performance e vai reduzir muito aquele grau de entendimentos
+
+errados do cliente que passam uma informação você entender de uma forma de resolver de uma outra forma
+
+completamente diferente.
+
+Então tudo isso você vai agregar.
+
+Utilizando essa documentação então ele tem até uma uma regra uma charge bem conhecida de como os programadores
+
+como as pessoas que trabalham com o sistema gastam o seu tempo sendo a maior parte do tempo entendendo
+
+o código de outro programador.
+
+Mas também pode falar que entendendo a regra de negócio de outros programadores.
+
+Outra grande parte modificando um código existente por erros por meio mal entendimento por ter alteração
+
+das regras de negócio e a menor parte escrevendo um novo código significa o que significa que se não
+
+se atenta a documentação a organização a regra de negócio no início do projeto a taxa de erro será muito
+
+alta frente entender um pouquinho sobre todo esse contexto ml.
+
+Você vai ter que saber que o ML é uma Linguagem de Modelagem Unificada onde cada pessoa e cada entidade
+
+documentada sofre de uma forma e em determinado momento falada não vamos estipular um meio como uma
+
+forma que todo mundo consiga entender.
+
+Seja no Brasil ou nos Estados Unidos no mundo todo.
+
+Todo mundo vai ter uma mesma noção dessas definições dessas notações de como se documentar um software.
+
+Então é o objetivo do ML é documentar conseguir visualizar de uma forma mais fácil dinâmica e específica
+
+o que deve ser feito o que não deve ser feito em um software.
+
+E construí aquele software.
+
+A versão hoje dá o ML enquanto todos ouvem discurso e são dois pontos cinco.
+
+Geralmente cada reenvio de diversões dá o ML e tenho algumas votações a mais.
+
+Alguns padrões mas a Corte dá o ML raramente é alterado porque para manter uma estabilidade do padrão
+
+de um software.
+
+Os diagramas do ML são divididos entre diagramas de estrutura e diagramas de comportamento que são os
+
+diagramas de estruturas são diagramas que são úteis a gente ter uma visão estática em que tem um conhecimento
+
+estático daquele software tem uma visão geral do que é o meu software.
+
+O diagrama de comportamento eu tenho uma visão de andando no software de navegabilidade de software
+
+do que aquilo que acontece em relação a ações do meu software.
+
+Tenho métodos tenham ações tem os comportamentos do meu software vai entender muito mais isso um pouquinho
+
+para frente do curso.
+
+Num breve histórico pego aqui em 1980 teve o surgimento das linguagens orientadas a objeto que foi um
+
+novo paradigma no mercado que revolucionou o mercado entre 88 a 92.
+
+Surgiu vários modelos para esse novo paradigma na forma de documentar um destaque grande Clive Jacobson
+
+games roubados e O Grande Buck que tinham Nomenclaturas específicas cada um deles tinham formas de documentar
+
+software e resolveram se unir a fomentar o ML 197.
+
+Ao emergir o boletim médico do grupo solicitou propostas para a definição de uma linguagem e notação
+
+de modelagem padronizada que foi então construída ao ML e foi aprovado como padrão até recomendo que
+
+você estude um pouquinho e faça uma pesquisa sobre MG.
+
+Você vai descobrir uma grande base de documentação de suporte até para entender mente de todo o nosso
+
+curso é muito mais então a linguagem de modelagem o ML é uma linguagem modelar baseada no paradigma
+
+de orientação a objetos.
+
+O que isso quer dizer.
+
+Quer dizer que nós do comentamos como ML softwares que são orientados a objetos ou consigo modelar então
+
+sistemas baseados nesse objetos e ao modelo de estudar problemas com a utilização de modelos fundamentados
+
+em conceitos do mundo real porque é fundamentados em conceitos no mundo real porque a orientação objeto
+
+se baseia no mundo real assim como Chico viu naquele curso um brinde de orientação a objeto as vantagens
+
+da utilização desse paradigma são conceitos da realidade.
+
+A modularidade e a usabilidade de conceitos de diagramas de código de componentes.
+
+Então com isso nós temos a grande regra do momento que é a forma de escalar o meu software nossa escalabilidade
+
+do software.
+
+Eu consigo ter uma visão do meu corpo do meu software.
+
+Hoje eu consigo ter uma visão da escalabilidade deste software e isso é muito importante para o mundo
+
+atual
+
+além claro da grande facilidade em demonstrar a documentação para leigos.
+
+Entende se como leigo o cliente uma pessoa um pouco mais de negócio eu sou um pouco mais afastada do
+
+mundo de tecnologia.
+
+Porque através de dois diagramas desenhos de uma forma abstrata a gente consegue fazer um depara da
+
+tecnologia consegue fazer um depara do Mundo de programação para o uso de negócio.
+
+Meu cliente fica um pouco mais simples como no cliente entender aquilo.
+
+Então a interface bem existe um software.
+
+Com isso entendeu uma regra de negócio validar a regra de negócio com o cliente.
+
+Com isso então fica muito bom isso.
+
+Eu espero que tenha gostado dessa rápida introdução ao ML ter começado a entender toda a fundamentação
+
+da ML porque é realmente importante o uso do ML para você.
+
+Caso tenha ficado alguma dúvida faça um comentário mande uma mensagem e até a próxima aula.
