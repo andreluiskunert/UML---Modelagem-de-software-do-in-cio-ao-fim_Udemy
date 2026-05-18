@@ -1,0 +1,939 @@
+Lá no final de diagrama de caso de uso.
+
+Esse diagrama é um dos que consideram mais importantes o ML.
+
+Através desse diagrama é possível destacar quais são os requisitos do nosso sistema.
+
+Não sei dizer se nosso software entra através dele.
+
+é muito fácil muito rápido ter visão geral de como o nosso software vai funcionar.
+
+O que ele vai fazer.
+
+Quais são as principais características do nosso software.
+
+Nosso sistema é um diagrama de caso de uso especifica o comportamento de um sistema ou parte de um sistema
+
+e é uma descrição de um conjunto de seqüências de ações incluindo variantes realizadas pelo sistema
+
+para produzir um resultado observado do valor de um ator certo.
+
+Então o que você fazer necessariamente com um software.
+
+Todas as funcionalidades do nosso software a fazer as principais funcionalidades do nosso software.
+
+Um caso de uso só na etapa de definição.
+
+Segundo Jacobson o caso de uso o documento narrativo que descreve a sequência de eventos do ator que
+
+usa um sistema para completar o processo.
+
+O diagrama de caso de uso ele faz a captura de requisitos.
+
+Ele ajuda nisso a entender quais são as funcionalidades esperadas para esse sistema.
+
+Esse software ajuda na identificação dos agentes externos ao sistema.
+
+Quem são essas pessoas são pessoas ou são outros sistemas ou algum outro que utiliza o nosso software
+
+que utiliza o nosso sistema.
+
+Ele ajuda na identificação de cenários o que o sistema deve fazer.
+
+Ele tem um modelo descritivo do nosso software conceitos.
+
+O ator representa o papel desempenhado por um usuário quando este interage com o caso de uso.
+
+Tipicamente os atores são pessoas ou humanos são um dispositivo gerador ou um outro sistema que interaja
+
+com o nosso sistema entenda que interagir é a mesma coisa que celular solicitar uma ação que realiza
+
+um evento do sistema que recebe ações e quem utiliza o nosso software.
+
+Então basicamente o ator é uma pessoa e um ou outro software que interage com o nosso sistema.
+
+Um caso de uso ele representa o Bolsonaro cidade ou até mesmo uma parte de uma funcionalidade de um
+
+sistema.
+
+Sendo assim como identificou o ator vai sempre se perguntar quem é o sistema quem inicializar o sistema
+
+que fornece dados para esse sistema que usa as informações desse sistema.
+
+E são questões relevantes para que a gente consiga identificar os atores mas o software que identifica
+
+o caso de agora a função da idade.
+
+Nosso software então os casos de uso são interações entre os atores e o sistema os atores sempre iniciam
+
+uma ação no caso de uso e o que é que aquela pessoa que está utilizando o meu sistema vai fazer.
+
+Aquela pessoa vai cadastrar o usuário aquela pessoa vai cadastrar um cliente.
+
+Então no caso de uso e o cadastro do usuário o cadastro do meu cliente.
+
+São essas as funções.
+
+No meu caso de uso são essas as funções do meu sistema.
+
+Esse é o meu caso de uso temos algumas votações importantes como a Associação associação e o ele aciona
+
+o meu ator.
+
+Como é o caso de uso.
+
+Então geralmente essa linha reta entre um ator e um caso de uso.
+
+O ator é representado por esses bonecos palito que facilita inclusive o meu desenho.
+
+Então esses bonecos palito são bonecos geralmente simples que eu vou colocar quem é o ator.
+
+Vou falar quem é este usuário quem é este quem é esse sistema que interage com uma funcionalidade de
+
+sorte enquanto que um caso de uso é representado por essa elipse hoje no centro dela eu vou escrever
+
+uma forma rápida breve e simples.
+
+Qual é a funcionalidade.
+
+Qual é a ação desempenhada por aquele ator.
+
+A gente tem a mais organização no nosso software nosso diagrama de caso de uso.
+
+é possível criar algumas fronteiras está solteira e são esses quadrantes onde eu posso falar sobre um
+
+conjunto de funcionalidades.
+
+Nada me impede de utilizar ou não utilizar apenas pra organizar ficar um pouco mais agradável à visão.
+
+Como esse diagrama cresce muito.
+
+Então eu tenho uma fronteira por exemplo que é o atendimento à Luz onde o balconista reserva livros.
+
+O balconista retira libras o balconista devolve livros certos e para que eu sempre damos preferencial
+
+para o verbo reservar um livro e tirar o livro devolver o livro.
+
+Essas são os requisitos funcionais desses nesse software.
+
+Neste diagrama isso é o que o balconista faz com o nosso sistema e o que ele faz no nosso software.
+
+Relacionamentos os relacionamentos.
+
+Nós temos um cliente e temos o que estende a inclusão em um relacionamento.
+
+Assim como ele diz respeito ao caos ocupa um caso de uso.
+
+Tenho que fazer alguma coisa no caso de uso.
+
+Depois de ser executado depois vou fazer uma funcionalidade eu tenho que fazer uma segunda funcionalidade.
+
+Então se o caso de uso inicia ou inclui um curti o comportamento de outro no caso de uso dizemos que
+
+ele inclui outro no caso de uso.
+
+Mostra que existe uma dependência entre os casos de uso as propriedades básicas da inclusão são permite
+
+uma decomposição funcional reduz a complexidade o caso de uso básico não pode executar sem a inclusão.
+
+O comportamento comum.
+
+Significa que tinham uma funcionalidade muito grande e eu compus esta manhã fosse mais duas funcionalidades.
+
+Hoje após executar a primeira etapa eu sou obrigado a executar a segunda etapa o que facilita o entendimento.
+
+é aquela velha brincadeira de um problema grande.
+
+é difícil entender então o que nós fazemos quebramos um problema grande em vários problemas pequenos
+
+e uso então a complexidade de entendimento facilita o entendimento que é o nosso grande objetivo.
+
+Mostrar um exemplo associação em casos de uso utilizando um clube de inclusão temos o atendente esse
+
+atendente ele pode alugar filmes e esse atendente pode devolver filmes toda vez que eu for alugar o
+
+filme eu preciso obrigatoriamente consultar meus clientes.
+
+Toda vez que eu precisar devolver um filme eu preciso obrigatoriamente consultado o cliente.
+
+Então ou caso de uso alugar filme é o caso de uso devolver o filme.
+
+Eles têm um estereótipo que são essas tags de menor e maior ela afirmando que é um include.
+
+Temos o estereótipo de include para consultar clientes.
+
+A mesma coisa acontece com devolver filmes.
+
+Ele tem um estereótipo include associação include DIY com o futuro cliente.
+
+Toda vez que um título ou filme consulto o cliente toda vez que eu devolvo um filme ou consulto o cliente
+
+se é obrigatório eu não posso executar a funcionalidade de alugar o filme ou devolver o filme sem consultar
+
+um cliente.
+
+Eu tenho uma associação de inclusão que nesses casos de uso cheques
+
+relacionamentos.
+
+Temos também a opção de fazer o que estende uma inscrição.
+
+Isso quer dizer que ele pode fazer não é obrigado a fazer.
+
+Ele pode fazer.
+
+Então nós adicionamos o comportamento ou um caso de uso passe.
+
+Da mesma forma que os dois casos de uso são independentes.
+
+O caso de uso base pode ser executado mesmo sem a extensão significa que eu posso fazer isso.
+
+Então adicionando naquele mesmo exemplo nerd ou alugar filmes toda vez com alugo um filme eu tenho a
+
+associação include para consultar cliente.
+
+Eu posso pagar o aluguel do filme ao alugar ou devolver filmes.
+
+Eu posso pagar aluguel de filmes ao devolver.
+
+Eu não sou obrigado a pagar o aluguel na locação.
+
+Assim como não sou obrigado a pagar o aluguel uma devolução.
+
+A regra de negócio permite que ao alugar o filme eu não paga aluguel.
+
+Ao devolver o filme eu não paga aluguel do filme.
+
+Significa que eu tenho uma associação e que estende até uma extensão.
+
+Eu posso executar o caso de uso a cara do game de filmes ou não vai de acordo com a regra exigida pelo
+
+cliente.
+
+De acordo com o fluxo escolhido no momento daquela transação ele pode ou não ser executar essa extensão
+
+é opcional o que estende R excecional
+
+nota se que nós temos uma generalização uma especialização assim como aqueles conceitos de orientação
+
+a objeto.
+
+O caso de uso base possui diferentes especializações e generalizações do seu comportamento.
+
+é uma herança.
+
+Nós podemos trabalhar com herança no caso de uso essa herança ela pode ser tanto para o caso de uso
+
+quanto para um ator.
+
+Então a herança pode ser aplicada para casos de uso para funcionalidades operadores e papéis.
+
+Significa que quando eu alugo um filme eu posso pagar com o cartão ou posso pagar com o dinheiro.
+
+Ou seja eu vou alugar um filme é algo genérico é algo que de qualquer forma vai ser realizado só que
+
+eu vou me especializar de forma de pagamento.
+
+Eu vou pagar com o cartão aluguel filme paguei o cartão é a mesma coisa pagar com dinheiro.
+
+Tem as mesmas características do aluguel do filme.
+
+O que muda a forma do pagamento.
+
+Agora eu pago com o dinheiro certo.
+
+Se consegue ganhar o entendimento dessa forma fica um pouco mais fácil esse entendimento.
+
+A mesma coisa o atendente onde eu tenho o atendente com algumas funcionalidades com algumas ações ele
+
+pode pagar o aluguel do filme e fazer o recebimento desse lugar do filme o gerente.
+
+Ele tem mais características mas ele também pode fazer esse pagamento do aluguel do filme.
+
+Ele é um cara mais especializado.
+
+Ou seja fica mais fácil mais rápido e demonstrar isso.
+
+Nós ganhamos um pouco de eficiência nesse momento temos aqui um diagrama um pouco mais complexo onde
+
+temos um sistema de vendas certo e sistema de vendas.
+
+Nós temos alguns atores aqui e é isso que nós temos o cliente esse cliente é algo bem genérico todo
+
+o cliente e todo o papel do cliente e ele tem um cliente especial um cliente comum que são especializações
+
+naquele nosso cliente genérico.
+
+Do outro lado nós temos um ator funcionário que não interage com o sistema.
+
+Ele está lá apenas pra deixar nítido que o funcionário de forma normal salário determinado não tem interação
+
+com o sistema lembra.
+
+é importante dizer o que um sistema faz como diziam que o sistema não faz.
+
+Nós temos um transportador que interage com o sistema que é outro tipo de ator e tem outras funcionalidades
+
+e temos um fornecedor que também interage com o sistema de vendas.
+
+Ele também tem outras regras em volta dele que o cliente pode fazer com o sistema o cliente ele pode
+
+fazer um pedido e quando ele faz um pedido que tem ou estende olha lá ele pode fazer um pedido que está
+
+em oferta ou ele pode fazer um pedido senão o cliente especial que tem uma regra um pouco diferente
+
+para o cliente ele pode verificar o pedido.
+
+Eu tenho um USA que é a mesma coisa do nosso clube certo.
+
+Posso incluir hoje toda vez que verifico um pedido Eu tenho que fazer o quê.
+
+Tem que procurar um pedido.
+
+Aqui eu sou obrigado a fazer isso.
+
+O cliente pode cancelar o pedido e toda vez que ele cancela o pedido ele tem que fazer o quê.
+
+Procurar o pedido o transportador transportador ele pode calcular postagens.
+
+O transportador ele pode entregar o produto e um fornecedor.
+
+Por último ele pode fornecer um produto nota se que nós vemos todo o sistema de vendas um alto nível
+
+em funcionalidades.
+
+Vimos quem interage com o sistema cliente dois tipos de cliente um cliente comum um caso especial nós
+
+vimos que um funcionário não interage com o sistema.
+
+Temos uma transportadora um fornecedor e várias funcionalidades e foi possível ter uma visão geral desse
+
+sistema.
+
+Menos de 2 minutos.
+
+Apenas olhando o diagrama.
+
+Essa é a grande coisa que o grande ganho o diagrama nos dá.
+
+Eu tenho um entendimento total do nosso software muito muito pouco tempo
+
+quando eu tenho o software um pouco mais complexos.
+
+Eu posso fazer a descrição de um caso de uso na descrição de um carro de uso.
+
+Colocamos diversas informações a respeito do caso de uso que nós podemos descrever.
+
+O caso de uso por exemplo o nome dele.
+
+Qual é o nome do caso de uso.
+
+O objetivo com o propósito principal neste caso de uso.
+
+Os requisitos funcionais.
+
+Quais são os requisitos funcionais relacionados.
+
+Ou seja quais são as funcionalidades que estão relacionadas a este caso de uso.
+
+Mais atores.
+
+Quem são os atores envolvidos.
+
+Quais são as pessoas que interagem com esta funcionalidade com este caso de uso.
+
+Quais são as regras que interagem quais são os outros sistemas que interagem com esta funcionalidade.
+
+Prioridade qualquer prioridade de desenvolvimento.
+
+E aí tem uma regra muito clara quando você coloca prioridade para tudo nada tem prioridade.
+
+Muito simples.
+
+Quando tudo dê prioridade à neutralidade a mesma coisa.
+
+Então você tem que ter muita clareza ao definir a idade de uma ordem de desenvolvimento.
+
+Quais são pré condições.
+
+Quais os estados do sistema para entrar no caso de uso então buscar um cliente é necessário que o usuário
+
+esteja logado no nosso sistema.
+
+Na seção o nosso usuário seja uma sessão válida por exemplo.
+
+Com que frequência de uso desse caso de uso.
+
+Com que frequência esse caso russo é executado.
+
+é uma rotina que é executada diariamente é executada após determinada ação.
+
+Em que momento vai ser utilizado aquela funcionalidade as condições.
+
+Qual ou quais estados o sistema vai estar.
+
+Após o término desse caso de uso o que acontece depois de executar esta funcionalidade quais são os
+
+principais campos envolvidos.
+
+Quais são as principais características envolvidas nesta funcionalidade.
+
+Neste caso o fluxo principal aquele que chamado Caminho Feliz para acontecer essa funcionalidade estão
+
+pois os passos com espaço serão necessários até que ocorra com sucesso.
+
+Este é o caso de mais alternativo se não ocorrer esse caminho feliz esse caminho principal não vai acontecer
+
+de outros rumos o ator ou o sistema podem tomar dentro do fluxo principal quais são os fluxos de exceção
+
+que pode dar errado e o que você vai fazer.
+
+Qual é a funcionalidade que vai ocorrer e que vai ser executado quando der errado.
+
+Quais são as validações importantes como o sistema vai verificar o que pode dar errado o que for válido
+
+tem o CPF e o CPF nome CPF e vai.
+
+O que vai acontecer tem que validar o CPF ou não tem CPF.
+
+Tem que vender o IMEI.
+
+Não tenho tudo isto escrito protótipos de tela é muito importante ainda mais o entendimento do software.
+
+Então como serão as telas necessárias para cobrir o caso de uso certo.
+
+Eu descrevi alguns exemplos aqui.
+
+Então tenho este diagrama aqui essa tabela como referência do que eu considero ser o mais importante
+
+não há na descrição de um caso de uso.
+
+Você pode utilizar isto aqui como referência.
+
+Toda vez que você quiser descrever um caso de uso você pode utilizar esta tabela aqui para descrever
+
+este caso de uso.
+
+Então por exemplo dê uma nomenclatura que no meu caso de uso o C 00.
+
+O primeiro caso de uso que eu vou colocar lá o nome dele vou colocar o objetivo nesse caso de uso.
+
+Quais são os requisitos os atores idade pré condições frequência de uso pós condições Campos principal
+
+fluxo alternativo subsidia exceção validações e protótipos de telas anexas ao diagrama.
+
+Ok você pode utilizar isto como referência vamos a um exemplo de como fazer a descrição deste caso de
+
+uso
+
+então temos aqui no caso de uso de um sistema de biblioteca.
+
+Então temos o caso de uso emprestar exemplar devolver o exemplar reservar publicação cancelar a reserva
+
+que está sendo interagindo pelo usuário e um atendente cada um com a sua responsabilidade cada um interagindo
+
+com determinadas funcionalidades desse sistema certo.
+
+Ao descrever um caso de uso nós podemos colocar.
+
+Eu recomendo muito que você faça isso com a nomenclatura o código o que facilita uma busca no armazenamento
+
+dessa documentação.
+
+Então o C.
+
+00.
+
+Em seu primeiro caso de uso documentado o nome no caso de uso naquele nosso diagrama sugeriu emprestar
+
+exemplar é o mesmo no mesmo nome que você utilizou no caso de uso o lobby do caso de uso indicar todos
+
+os envolvidos no processo separar por vírgula para facilitar a leitura sempre.
+
+Quais são os envolvidos nesse diagrama.
+
+Temos um atendente e temos um usuário legal.
+
+Separei quais são os atores.
+
+Próxima etapa prioridade.
+
+Disponibilizar uma nomenclatura como alta média baixa ou uma numeração de leis 2.1.
+
+De acordo com o que você entendeu o que você acha melhor.
+
+Então não confundir idade com a frequência de uso é algo importante porque você mais usa aquela idade
+
+que ela é mais importante talvez já não seja com a atual funcionalidade de criar uma ordem para ser
+
+programado para ser resolvido que é o mais importante para ser criado o que é o mais importante para
+
+ser validado.
+
+Nesse software você pode decidir se vai usar o nome número como o alto mede Hackney.
+
+2 O que define o potencial humano é o padrão.
+
+Se você usou numerais utilize o Brasil usou uma nomenclatura de Alt alta média baixa utiliza sempre
+
+essa mesma nomenclatura mantém um padrão pré condições são requisitos o status que o sistema deve estar
+
+para que o caso aconteça.
+
+Se o requisito está num determinado estado foi diferente do que é esperado daqui troféus da brincadeira.
+
+Então o que eu vou fazer.
+
+O que eu vou pensar nesse caso vai ser realizado.
+
+Então eu tenho uma pré condição de cancelar a reserva será a existência de uma reserva realizada colocando
+
+ou cancelar uma reserva e esta reserva nem sequer existe.
+
+Então a pré condição para poder cancelar uma reserva e existir uma reserva.
+
+Parece óbvio isso mas é importante deixar isso bem claro.
+
+O nosso sistema após condição serão requisitos os estados que o sistema deve estar após o caso acontecer.
+
+Aqui não tem.
+
+Se é obrigatório tem que estar assim.
+
+Então após condição de cancelar a reserva será a inexistência da reserva antes realizada.
+
+Então depois que eu cancela uma reserva o que é a minha pós condição para validar isso é que não exista
+
+mais aquela reserva com a cancelei.
+
+Parece óbvio mas é assim que eu consigo garantir a integridade do nosso software.
+
+Campos todas as características de todos os objetos não atores claro envolvidos no caso estão no objeto
+
+dos casos de uso.
+
+O objeto utilizado no caso de uso é emprestar exemplar.
+
+Nós tínhamos um atendente que estava relacionado àquilo que o usuário estava alojado e aquilo não colocamos
+
+atributos temos o livro.
+
+O livro é algo que a gente possa colocar símbolos como por exemplo o nome é importante o autor é importante
+
+o S Bento da importante quantidade de páginas é importante por exemplo.
+
+Você precisa colocar todos os atributos não pode colocar quais são os mais importantes os mais relevantes.
+
+Neste caso
+
+fluxos mecânica para todos os fluxos então o ator faz alguma coisa.
+
+O sistema responde o ator não faz outra coisa.
+
+O sistema responde o caso de uso e o Cerrado acaba a sociedade.
+
+Então temos um fluxo principal que pode conter cinco alternativas de exceção se necessários então temos
+
+lá o ponto.
+
+A cliente solicita visualizar o extrato de pontuação de um programa de milhas ou alguma coisa assim
+
+o sistema requer o mês de referência.
+
+Mesmo sequer o seu extrato.
+
+O cliente seleciona referência e confirma a operação legal.
+
+Selecionei uma mas diferença o sistema exibe o extrato referente ao mês selecionado pelo cliente ok
+
+cliente seleciona retornar ao menu principal.
+
+O caso de uso é encerrado.
+
+Acabou aquela funcionalidade e ao longo de todo esse processo o ano é em si e no item e destacamos dois
+
+pontos alternativos dois filmes alternativos 1 a 1 e Wave 2 a 1 enquanto o cliente seleciona o mês de
+
+referência ele poderia ter um fluxo de exceção que é cancelar a operação e voltar para a parte anterior.
+
+No processo é obrigado a confirmar que se não quiser mais selecionar uma de que clicou errado por exemplo
+
+é importante que tenha o escape e tenha o retorno inútil.
+
+O cliente seleciona retornar ao menu principal e ele realmente poderia selecionar emitir um novo extrato
+
+e voltar lá como um item B por exemplo para selecionar um outro mês selecionou janeiro essa mesma fevereiro
+
+agora ele está baixo agora ele que sabe já voltar à tela inicial e refazer todo o Flux.
+
+Ele tem alguns caminhos de exceção.
+
+é importante ressaltar essas informações fluxo se pode apontar para outro fluxo alternativo de exceção
+
+pode encerrar ele mesmo pode voltar para o fluxo principal então lá no alto onde eu cancela operação
+
+e volto na página anterior.
+
+O nosso modelo anterior o cliente cancela operação em volta da cópia anterior e retorna ao passo o chefe
+
+do fluxo principal qualquer passo e fica o fluxo principal.
+
+Era o caso de uso que era encerrado.
+
+Aquela funcionalidade era encerrada ou no A2 emitiu um novo extrato.
+
+O cliente seleciona emiti logo ele pode emitir novamente e ele retorna ao passo b o fluxo principal
+
+qualquer eu passo b do fluxo principal do sistema referi o mês de referência inicia se tornaria outros
+
+homens para fazer a extração do extrato dele o fluxo de exceção pode apontar para um outro fluxo alternativo
+
+de sessão pode encerrar em si mesmo.
+
+Hoje voltar consulte o principal no.
+
+Ele poderia ter colocado um valor inválido então o sistema reconheceria o valor dado inválido informa
+
+o operador.
+
+O agarrou como um registro por exemplo e retorna ao Paço Municipal para fazer aquela operação novamente.
+
+Validações validações são algoritmos que disparam o fluxo de sessão ser extremamente importante manter
+
+a consistência e integridade do nosso sistema.
+
+Apenas os campos de meio e do representante não são requeridos.
+
+O restante é obrigatório desde a nossa regra.
+
+O tipo de contrato só poderá ser mensal bimestral semestral e anual.
+
+Eu não posso colocar um bimestral o tipo de contrato.
+
+O estoque da loja no sistema se 2.0 é desativado e ativado respectivamente.
+
+Vale darei essas regras porque isso é o que é importante neste contexto desse sistema.
+
+Neste momento
+
+o protótipo de tela você pode utilizar vários softwares para fazer o protótipo do Photoshop.
+
+O esquete que são excelentes sistemas para fazer protótipos ou o bom e velho papel e caneta só se colocar
+
+em uma interação rápida num protótipo de tela certo.
+
+Vamos agora utilizar o Astra e entender um pouco mais na construção de um diagrama de caso de uso
+
+não basta você selecionar diagramas e diagrama de caso de uso até que nós tenhamos o painel específico
+
+do diagrama de caso de uso no ou no Astra.
+
+Nós temos aqui pode selecionar este primeiro bonequinho que é o nosso atual selecionou o acordo.
+
+Colocaremos o nome deste setor.
+
+Vamos colocar como por exemplo atendente e temos o ator aqui criado.
+
+Muito simples exceto vamos agora nesta elipse aqui criar o caso de uso.
+
+Então o que o atendente pode fazer por exemplo uma atendente pode cadastrar o usuário por exemplo é
+
+um software fictício.
+
+Esse atendente ele poderia fazer por exemplo registrar venda e registro uma mas ainda olha que legal
+
+certo esse atendente só coloca o mouse próximo a ele.
+
+Eu tenho uma certinha na qual eu clico e leva até o nosso caso de uso criando assim o relacionamento
+
+entre o meu ator atendente e o meu caso de uso cada usuário.
+
+A mesma coisa eu consigo fazer para registrar a venda.
+
+Olha lá consegui pegar e criar o relacionamento entre o atual atendente e o caso de uso cadastrado o
+
+usuário no caso de uso registrar a venda agora eu vou criar o outro caso de uso o que é pesquisar o
+
+usuário pesquisar o usuário esse pesquisar o usuário seria importante realizar essa funcionalidade toda
+
+vez que eu for cadastrar um novo usuário para saber se aquele usuário já existe ou não.
+
+E toda vez que eu ofereço dá uma venda.
+
+Eu tenho que pesquisar o meu usuário que vai fazer o que vai e o que vai contratar aquela venda que
+
+vai realizar cada venda por exemplo.
+
+Então como é obrigatório eu vou colocar o estereótipo include está bem aqui é porque é o caso obrigatório.
+
+Toda vez que eu for executar o caso de uso cadastrado o usuário eu vou fazer um acordo com pesquisa
+
+do usuário.
+
+Uma forma bem simples clico no cadastro do usuário após clicar AQUI NO LUGAR DO include e cliquem aqui.
+
+No próximo caso de uso pesquisado o usuário.
+
+Com isso eu tenho um relacionamento entre cadastrados o lago e escusado usuários que nos diz que toda
+
+vez que eu for cadastrar o usuário eu tenho que obrigatoriamente pesquisar o usuário.
+
+Quando eu for registrar a minha venda eu também vou ter que fazer obrigatoriamente o pesquisado usuário.
+
+Então vou vem novamente aqui no include vou clicar no caso de uso externo ainda vou clicar novamente
+
+aqui no pesquisar o usuário e ele dizer aqui mais um relacionamento mais uma associação de inclusão
+
+onde também é obrigatória ok
+
+vou criar mais um caso de uso é o caso de uso será por exemplo vamos pensar
+
+atualizar
+
+o usuário
+
+quando voa registraram uma venda.
+
+Eu pesquisei o meu usuário e eu posso atualizar o meu usuário.
+
+Ele mudou de endereço ele mudou
+
+o email dele ele mudou por exemplo a forma de pagamento que ele estava habituado.
+
+Tem que atualizar alguma informação.
+
+Não é obrigatório não é todo usuário que eu vou ter que mudar mas ouço que tiveram que mudar.
+
+Eu vou poder fazer isso.
+
+Então o que é que eu vou fazer.
+
+Otimizar o que a UE está aqui do lado uma venda ele que eu tenho e que tende para atualizar o usuário
+
+significa que eu tenho um relacionamento que pode acontecer ao R7 mas ainda precisa atualizar o usuário
+
+Jack então não é sempre que tem que atualizar o usuário e só esporadicamente em alguns casos ou terei
+
+que a colisão não usar esse diagrama é um diagrama fictício de um sistema fictício apenas para que você
+
+entenda a criação de atores e a criação de caso de uso.
+
+Assim como o relacionamento eu sugiro que você bem um pouco com a ferramenta fosse um pouco com ela.
+
+Veja mais opções veja mais recursos que ela possa te dar se familiarizar um pouco mais.
+
+Caso tenha dúvidas mude o foco e discordou pouco la no tópicos.
+
+E tenho que maior conhecimento desta ferramenta para o diagrama de casos de uso.
+
+Por enquanto
+
+voltando ontem aqui alguns exercícios que você propõe que você faça.
+
+Então temos um exercício no menu que diz construa um modelo de caso de uso na seguinte situação fictícia.
+
+Então você vai criar um diagrama de caso de uso para essa situação.
+
+A situação é que estamos criando um serviço de entregas.
+
+Nossos clientes podem requisitar a entrega de volumes as caixas ou os volumes são considerados de maior
+
+valor por nosso cliente e portanto eles querem ter mais volumes segurados de transporte.
+
+Contratamos uma companhia de seguros braço em Goa para assegurar volumes de valor legal.
+
+Esta é demais.
+
+O que você precisa fazer um diagrama que represente esse sistema.
+
+Eu sugiro que você use o vídeo agora tente fazer o exercício pense um pouquinho e vote
+
+muito bem espera que você tenha realizado o exercício com certeza ficou algumas dúvidas ainda vamos
+
+pra sua solução.
+
+Este diagrama.
+
+Bem Simples nós temos dois atores o ator funcionário e o ator seguradora que com o ator funcionando
+
+faz ele entrega volumes legal de alguns desses volumes era considerado de maior valor.
+
+Alguns desses volumes vão ser segurados.
+
+Então faremos o seguro de alguns volumes.
+
+Por isso nós temos associação emocionalmente existente para assegurar volumes esse segurar volumes.
+
+Esse caso de uso nem sempre será executado será executado em alguns casos apenas pela seguradora e pela
+
+seguradora.
+
+Certo.
+
+Espero ter entendido.
+
+Vamos para o próximo exercício.
+
+2 algumas perguntas qual é a anotação da OMS para o caso de uso porque a mutação do ML para o ator e
+
+é uma anotação utilizada não ml.
+
+O relacionamento de generalização o caso de uso sugiro que pausa um pouco o vídeo.
+
+Entendi responder
+
+muito bem vamos para a solução
+
+então temos a elipse à esquerda que representa o caso de uso temos o nosso boneco que representa o motor
+
+e temos ou nossos a nossa.
+
+Nosso relacionamento de casa de uso.
+
+No nosso caso base em nossa herança que representa a especialização neste caso de uso Jet
+
+próximo exercício exercício número 3.
+
+Considere a seguinte narrativa do caso de músico realizar saque costurou uma descrição neste caso de
+
+uso ao fazer a leitura de um caso de uma especificação muito grande.
+
+Sugiro que você leia algumas vezes e vá montando os principais casos de uso balcão passe as partes fundamentais
+
+para facilitar o teu entendimento.
+
+Vamos à leitura operação de um caixa eletrônico em si a partir de uma sessão onde o cliente seleciona
+
+a opção de realizar saques.
+
+O cliente então escolhe uma quantia será retirada a partir de um conjunto de conjunto de opções de quantia
+
+disponíveis.
+
+O sistema verifica se o caixa eletrônico tem saldo e notas adequadas para compor o valor solicitado
+
+por 250 reais.
+
+Não podem ser fornecidos se houver três notas de 20 reais.
+
+O valor não é possível ser contabilizado caso tenha notas adequadas.
+
+Numa das poucas imagens do cliente são enviados ao banco para determinar se existe saldo suficiente
+
+na conta do cliente.
+
+Se não houver saldo uma mensagem adequada se houver saldo.
+
+O sistema inicia uma transação com outro banco e solicita a retirada na quantia desejada e o banco aprova
+
+ou desaprova a finalização.
+
+Se a transação é aprovada a máquina libera a quantia correspondente e emite um recibo.
+
+Se a Nação e Defesa aprovada uma mensagem adequada reportada o banco é notificado independentemente
+
+de uma transação aprovada teria sido completada ou não pela máquina.
+
+Se a acusação é completada o banco realiza o débito na conta do cliente.
+
+Muito bem estes este é o requisito.
+
+Essa é a narrativa que eu recomendo que você faça.
+
+Tire desse texto.
+
+Primeiro os atores de todos os atores.
+
+Após isso você vai retirar os casos de uso principais.
+
+Você tem uma organização mental ou melhor faça um papel faça isso lá no Asta uma ferramenta que você
+
+acha melhor.
+
+Depois disso ele leia e comece a fazer os relacionamentos comece a fazer as associações OK espere que
+
+se pausa o vídeo.
+
+Faça um exercício
+
+muito bem.
+
+Vamos agora para a solução
+
+nesta solução.
+
+Nós fizemos a descrição do caso de uso.
+
+Hoje nós temos aqui como pedido o caso de uso realizar saques.
+
+O objetivo dele precondições condições de entrada fluxo principal todo descrito.
+
+Você pode ver Fluxos Alternativos ou você pode enxergar também
+
+e vamos agora olha o nosso quarto e último exercício.
+
+Por enquanto em uma empresa vários projetos são realizados por 50 empregados da empresa que trabalham
+
+em pelo menos um projeto.
+
+O sistema implantado na empresa que permite aos participantes de um determinado projeto marcarem suas
+
+horas de trabalho.
+
+Esse sistema também permite que a pessoa ao fim do mês gere os relatórios com os totais de horas trabalhadas
+
+de cada participante.
+
+Faça agora a modelagem não a descrição mas a modelagem de casos de uso desse sistema
+
+vamos lá para a solução.
+
+Temos aqui o empregado que tem um caso de uso relacionado a ele que é registrar as horas trabalhadas
+
+e temos a gerência que obtém.
+
+Ora se trabalhar obtém um relatório de horas trabalhadas para cada funcionário são sempre muito bem
+
+extraídas aqui nos diagramas pra facilitar realmente um entendimento.
+
+Não vou colocar grandes texto ou colocar anotações simplórias para isso ok de ofício 5 suponha que um
+
+sistema de vendas deve gerar de forma automática o conjunto de estatísticas da diretoria da empresa.
+
+No último dia útil de cada mês desenhe um diagrama de casos de uso para essa situação.
+
+Certo No vídeo esse exercício
+
+também vamos falar da solução temos aqui o ator que é o relógio e o rádio e temos o ator que é um diretor
+
+ou uma pessoa tinha um fluxo a partir de determinados momentos o relógio gera estatísticas e gera informações.
+
+O diretor gera estatísticas visualiza informações uma forma simplória lembrando aqui que o relógio é
+
+um ator e um rádio.
+
+Ele pode ter influência sobre o nosso sistema.
+
+7
+
+vimos uma grande extensão sobre o diagrama de caso de uso um pouco da teoria do caso de uso.
+
+Exemplos práticos carinhoso uso trabalhamos com o Astra criando diagramas.
+
+Fizemos uma porção de exercícios.
+
+Espero que você tenha gostado desse diagrama entendido bastante uso dele.
+
+Se ficou alguma dúvida.
+
+Defesa.
+
+Veja os principais conceitos dessa aula.
+
+Depois entrem em contato mande mensagem no fórum mande alguma uma mensagem na casa você precisa de ajuda.
+
+Tá certo.
+
+Então muito obrigado.
+
+E até o final.
