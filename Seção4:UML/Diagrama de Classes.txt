@@ -1,0 +1,807 @@
+Olá bem vindo à aula de diagrama de classes.
+
+Espero que você esteja gostando do curso nesta aula vamos conhecer um dos principais diagramas do ML
+
+o diagrama de classes digamos classes são diagramas encontrados com frequência na modelagem de sistemas
+
+orientados a objetos de classe mostram o conjunto de classes interfaces e colaborações e seus relacionamentos.
+
+Você tem que pensar que todo modelos todo o projeto que é orientado a objeto ele necessita obrigatoriamente
+
+de classes.
+
+Esse diagrama é o diagrama que vai esboçar todo toda a arquitetura do projeto.
+
+Toda arquitetura do teu sistema ele vai dar visão total para uma pessoa que está entrando no sistema
+
+conhecer ele conhecer a arquitetura conhecer a modelagem ele vai te dar a ideia geral da tua regra de
+
+negócio.
+
+Então esse diagrama é fundamental para a elaboração do seu sistema.
+
+Quando mudamos o sistema dentro do paradigma da orientação é organizado em termos de classes de objetos
+
+representa a modelagem de classes interfaces e seus relacionamentos.
+
+Representa sua organização em pacotes na fase de construção o final da definição o diagrama apresenta
+
+maior detalhamento do que o produzido na fase inicial de definição porque ele já está mais bem elaborado
+
+que está mais estruturado.
+
+é aí que está um pouco maior ou mais denso ele vai dar visão geral do que vai ser realmente desenvolvido
+
+no teu sistema Haiti.
+
+Esse diagrama já pode iniciar o deslocamento de código do teu sistema já que tem a noção geral do que
+
+é criado o sistema ou do projeto tudo mais.
+
+Quando o Lula desvendou quando uma nova pessoa ainda no projeto fica muito mais simples você amiga você
+
+dando esse diagrama se essa documentação desse um novo indivíduo essa pessoa criar uma forma de atuação
+
+no sistema no trabalho e tudo mais
+
+a representação de uma classe isolada e essa classe.
+
+Nesse quadrante à direita nós temos o substantivo que representa o nome daquela classe que é aquela
+
+ideia abstrata.
+
+O que nós queremos ser apresentados temos adentro.
+
+Os atributos são as características daquela classe.
+
+E por fim temos os métodos e compreende consultar inserir e atualizar.
+
+Sendo assim nós nós temos que pensar na visibilidade de atributos e métodos que possuem uma simbologia
+
+sendo a primeira visibilidade pública não ambos que for de nós temos acesso através desse atributo esse
+
+método em qualquer local fora da classe.
+
+Então qualquer classe consegue tem direito de acessar esse atributo ou aquele método.
+
+O símbolo dessa visibilidade ou símbolo de mais na verdade são mais ok técnicos ou técnico.
+
+A visibilidade dentro da hierarquia de classe tem o símbolo do jogo da velha sustenido.
+
+O teste que acontece.
+
+Esse atributo e esse métodos podem ser acessados se estiverem com esta visibilidade dentro da classe
+
+ou dentro das classes que herdam esta classe que possui o atributo ou o método do teste o que é grave
+
+ou proibitivo tem a visibilidade unicamente dentro daquela classe.
+
+Ou seja nenhum atributo ou método privado podem ser acessados fora daquela classe.
+
+FORA AQUELE escopo é o backup.
+
+Por último tem uma visibilidade dentro do pacote ou seja dentro do conjunto de um pacote de classes
+
+previamente definidas.
+
+Ele possui o símbolo do Rio set os relacionamentos entre pacotes de relacionamentos.
+
+Eles possuem associações de uso e de acesso.
+
+Por exemplo quando eu vou acessar
+
+o pacote uma classe dentro eu vou dar um bote desta classe B por exemplo Java ou tenham essa nomenclatura
+
+de um porte e a hierarquia de pacotes até chegar na classe do importados se for um pacote eu preciso
+
+acessar tem um acesso privado eu vou utilizar aqui o nome do pacote eu consigo importar e se esse acesso
+
+importar essa utilização.
+
+Se eu tiver claro a permissão de visibilidade disso relacionamentos entre classes as classes se relacionam
+
+e os relacionamentos de dependência e generalização agregação e composição a associação e o relacionamento
+
+genéricos.
+
+Toda dependência generalização agregação e composição não deixa de ser uma associação.
+
+Então começando pela dependência dependência o relacionamento mais simples entre classes e objetos.
+
+A dependência indica que um objeto depende da especificação de outro objeto ou especificação ele pode
+
+entender a interface pública do objeto seu conjunto de métodos públicos e o relacionamento de dependência.
+
+O objeto dependente da especificação de outros objetos.
+
+Se a especificação mudar você precisará atualizar do objeto dependente através da programação orientada
+
+a objeto você sempre deve tentar minimizar ao máximo possível as dependências.
+
+Entretanto é impossível eliminar todas as dependências entre os objetos.
+
+Dependência é representada por uma seta que seja dada simplesmente como um elemento cliente que atira
+
+a seta e semanticamente estruturalmente dependente do sua área que recebe certa.
+
+O exemplo um produto de uma alíquota de imposto onde o produto é a alíquota de imposto ou possuem uma
+
+dependência.
+
+Outros exemplos nós temos aqui é relatório e filtro onde o relatório é o meu.
+
+A minha classe cliente filtro na minha classe Supply área onde o meu relatório depende do meu filtro.
+
+Em contrapartida uma conta que te falar depende do meu meio sendo certo e o sítio onde criei alguns
+
+projetos.
+
+Alguns sistemas com poucas dependências e isso é realmente importante a fim de que consiga escalar o
+
+nosso sistema.
+
+Quando você tem muita dependência você não consegue reutilizar código não consegue reutilizar estruturas.
+
+Então ao desenhar diagramas ou desenhar a arquitetura de um software sempre em si em minimizar as dependências
+
+realmente desnecessárias no teu sistema e eliminar erros deixe apenas o que é realmente obrigatório
+
+se dependesse não realmente.
+
+Como surgiu
+
+o seu sistema quando modelar dependências então normalmente você rodando dependências quando quer mostrar
+
+que o objeto usa o outro objeto ou lugar comum onde o objeto usa HUD.
+
+Essa é a vez de um argumento de um médico por exemplo um método salvar com objetos da classe relatório
+
+recebi obrigatoriamente um objeto da classe de fio como argumento no corpo do método Salvar Como é realizada
+
+uma chamada ao método exporta do objeto recebido como argumento.
+
+Nesse caso podemos dizer que o relatório usa um filtro e não tem muito como escapar disso.
+
+Para eu fazer essa modelagem toda essa organização de fluxo eu preciso realmente neste caso a dependência
+
+em que ela olhe ínfima de uma associação
+
+ligação também entre classes ou os relacionamentos de associação dão um pouco mais fundo do que se fosse
+
+realmente independência.
+
+As associações são relacionamentos estruturais.
+
+Uma associação indica que o objeto como tem ou que está conectado a outro objeto como objetos estão
+
+conectados.
+
+Não se pode passar de um objeto para outro.
+
+Considere que a associação inclua uma pessoa num banco o nome da associação é um nome que descreve o
+
+relacionamento.
+
+Cada objeto em uma associação.
+
+Também tem um papel.
+
+A multiplicidade indica quantos objetos podem tomar parte de uma associação.
+
+O evento mais detalhes acabou.
+
+A multiplicidade e aqui nós temos um exemplo onde o aluno está relacionado a uma aula.
+
+Repare que eu coloquei uma mensagem nesta associação o aluno frequenta uma aula e temos uma direção
+
+de leitura para facilitar um entendimento amplo dessa estrutura onde o aluno primeiro depois a aula
+
+porque o aluno frequenta a aula onde o banco empresta para uma pessoa certa ou um outro outro asterisco
+
+relacionado a entidade aluno a classe alunos implica aqui um ou muitos alunos que significam significam
+
+muitos frequentam muitas aulas.
+
+Nenhuma das aulas.
+
+Enquanto que muitos bancos têm apenas o asterisco relacionada à classe o banco empresta para muitos
+
+muitas pessoas.
+
+Muitos devedores certo a associação é feita por uma linha contínua.
+
+As duas classes são independentes e podem trabalhar juntas.
+
+Uma não precisa da outra para existir não existe a dependência delas ou são independentes.
+
+A visibilidade destaca qual o lado consegue enxergar as extremidades da associação mas ambas as classes
+
+podem estabelecer o relacionamento.
+
+O exemplo disso é cliente e fornecedor que possui uma associação e podem ser utilizadas de forma independente.
+
+Postos trabalha apenas com a visão de cliente.
+
+Posso trabalhar apenas com a visão um fornecedor em determinado momento e por alguma razão tenho a associação
+
+deles onde clientes estão relacionados a fornecedores
+
+como que nós modelo ambos uma associação deve modelar associações.
+
+Quando o objeto contiver o último objeto o relacionamento nenhum nós chamamos.
+
+Você também pode modelar uma associação quando o objeto usa outro objeto.
+
+Uma associação permite que você modere quem faz o que é relacionamento.
+
+A OMS define dois tipos de associação a agregação e a composição.
+
+Esse tipo de associação ajuda a refinar mais os seus modelos
+
+Vamos ao exemplo de associação temos a Class departamento e a classe funcionário departamento e funcionar
+
+são classes.
+
+Temos uma associação que é o sub departamento ou sei solucionar ou sei o nome da associação enquanto
+
+que o número um ao lado do departamento é um outro ponto asterisco ao lado de funcionar são a multiplicidade
+
+desta associação sendo que a leitura fica um departamento ou sei um ou muitos funcionários.
+
+Essa é a leitura eu posso fazer também o universo não é comum os opostos.
+
+Hoje muitos funcionários e os clubes têm que mudar o nome da associação.
+
+Muitos funcionários estão inclusos em um departamento cheques a linha sólida ligando as duas classes
+
+representa uma associação entre os objetos das classes da associação.
+
+O nome geralmente é um dos itens pertencentes ao domínio do problema.
+
+Uma seta no final da linha indica que a associação somente pode ser utilizada em uma única direção.
+
+Uma associação unidirecional.
+
+As associações possuem uma multiplicidade que especifica quantos objetos podem participar da ligação
+
+um tipo de associação.
+
+Como já mencionei é a Agregação Agregação então é um tipo especial de associação ou agregação modelam
+
+o relacionamento em um ou parte dele.
+
+O jargão da ou entre pares.
+
+Esse relacionamento significa que o objeto não é mais importante do que o outro na importância no contexto
+
+de uma agregação.
+
+Significa que os objetos podem existir independente uns dos outros isto é seu objeto todo deve existir.
+
+Os objetos para a arte podem continuar existindo.
+
+Não há uma dependência desses objetos não há uma dependência neste relacionamento a agregação é apresentada
+
+como uma linha contínua com um diamante branco clássico um diamante branco controla a associação não
+
+é uma dependência apenas a leitura contínua diz o exemplo e é que é pessoa.
+
+A equipe é quem pode estabelecer o relacionamento ou se adicionar pessoas à equipe.
+
+Uma pessoa por si só não pode entrar na equipe.
+
+A equipe é quem manda no relacionamento mas mesmo assim as classes são independentes.
+
+Pessoas existem fora da equipe certo.
+
+O nosso exemplo.
+
+Nós temos turma e temos aluno a agregação é representada pelo diamante branco junto com a turma onde
+
+turma é composta por aluno na ordem da nossa leitura de acordo com a agregação.
+
+Temos a multiplicidade também nesse diagrama onde zero ou muitos nem uma ou muitas turmas são compostas
+
+por um ou muitos alunos o que significa que eu preciso ter uma turma ao menos um aluno eu posso em determinado
+
+momento nenhuma turma existente mas já posso ter alunos existentes apenas não relacionados à turma em
+
+determinado momento o mesmo se dá a nota fiscal e produto.
+
+Temos também a agregação sendo controlada pela nota fiscal ou de nota fiscal que registra a venda de
+
+produtos em determinado momento da existência do grupo foi criado mas não sabemos que foi vendido.
+
+Ele está lá apenas criado.
+
+Ele pode existir sem a necessidade de existir a nota fiscal.
+
+Elas são independentes.
+
+Não existe uma dependência na multiplicidade.
+
+Nós temos que nenhuma ou muitas notas fiscais registram a renda de muitos produtos.
+
+Eu posso ter uma nota fiscal no mínimo um produto e posso ter aí produtos muitos produtos
+
+quando fui lá uma agregação você deve modelar uma agregação ou numa diretivo do seu modelo foi descrever
+
+a estrutura de um relacionamento de pares.
+
+O agregação mostra explicitamente o relacionamento estrutural do parte.
+
+Entretanto você estiver mais interessado no modelo quem faz o que é o relacionamento e mais há uma sucessão
+
+de amigos sem o losango sem o diamante porque só vai fazer o relacionamento de uma classe igual a outras
+
+vai fazer essa associação.
+
+Mas não quando você utiliza a agregação te mostre explicitamente quem controla aquela associação.
+
+Lembrando que ainda assim não há uma dependência.
+
+Essas classes mesmo modeladas com agregação elas podem existir sem a necessidade de estarem juntas
+
+já que a oposição e o outro tipo de associação.
+
+A composição é um pouco mais rigorosa do que a agregação.
+
+A composição não é um relacionamento entre eles.
+
+Os objetos não são independentes uns dos outros.
+
+Não existe uma dependência.
+
+Nota se que a composição ela é dada através de um diamante preto também ao lado da classe onde aqui
+
+a nota fiscal é composta por itens de nota sendo que uma nota fiscal só vai existir neste diagrama.
+
+Quando eu tiver pelo menos um ou vários itens de nota e um ou vários itens de nota só vão existir se
+
+eu coloco seus coloquei uma nota fiscal não pode existir um item de nota fiscal que não pertença a uma
+
+nota fiscal.
+
+Assim como a filial de uma empresa não pode existir se não houver a empresa a matriz.
+
+Não faz sentido isso.
+
+Muitas felicidades acompanha a composição o quanto a nota fiscal tem uma nota fiscal sendo composta
+
+por uma ou vários itens de nota a empresa tem também no exemplo uma empresa que possui muitas filiais
+
+a composição é representada como uma linha contínua com um diamante negro.
+
+A composição é uma agregação mais forte.
+
+A classe que possui o diamante controla a associação.
+
+Além disso há outras classes só pode existir associada à classe que tem um diamante e não pode estar
+
+associada a outras instâncias.
+
+Por exemplo uma nota tem nota Guido e impedir quando a gente vai modelar uma composição assim como a
+
+agregação você deve modelar uma composição no longo genitivo do seu modelo foi descrever a estrutura
+
+de um relacionamento uma composição mostra explicitamente o relacionamento estrutural como parte ao
+
+contar da agregação na composição não modela relacionamentos tudo parte entre pares.
+
+Em vez disso a arte é dependente do todo.
+
+Existe uma dependência.
+
+Isso significa em termos de programação que quando o objeto todo é destruído todos os objetos partes
+
+são automaticamente destruídos também se você imagina nota fiscal e itens de nota e você destrói nota
+
+fiscal todos aqueles itens de nota também serão destruídos bota importante.
+
+Lembre se que a agregação e composição são simplesmente refinamentos ou subtipos da associação.
+
+Isso significa que você pode modelar agregação e composição como uma associação simples.
+
+Tudo depende do que você estiver tentando modelar em seu diagrama.
+
+Pense que informação demais pode ser prejudicial para um entendimento rápido bem simples do seu sistema
+
+de arquitetura do sistema.
+
+Assim como na informação de Minas também pode implicar um mau entendimento do sistema.
+
+O lixo você tem que pensar até onde é importante você refinar ou não o seu diagrama.
+
+Lembrando que ao longo de todo o processo ao longo de todos os momentos sempre é necessário sempre é
+
+bem vindo refinamentos o sistema no hotel no diagrama na documentação para manter essa documentação
+
+sempre viva e estruturada agregação e composição mais uma vez a agregação e o relacionamento contém
+
+um.
+
+A implementação usa a definição de uma classe externa e a composição.
+
+O relacionamento surgiu aí a implementação pode usar a definição de uma classe interna exceto
+
+esse exemplo.
+
+Nós temos o uso de agregação e composição onde o livro possui agregação Kolkata.
+
+O livro pode possuir capa livro e capa.
+
+Existem de forma independente.
+
+Eu tenho a minha capa eu tenho o meu livro eu posso relacionar posso associar um livro com capa.
+
+Não sou obrigatório não sou obrigado a isso.
+
+Eu posso enquanto que livro e folhas.
+
+Existe uma associação de composição o Diamante Negro onde o livro e folhas precisam existir.
+
+Ao mesmo tempo eu só tenho um livro Quando eu tiver folhas se eu distribuir o meu livro eu disse duas
+
+minhas folhas.
+
+O mesmo acontece com a capa original do livro em uma capa sete
+
+o outro exemplo de composição eu tenho uma janela gráfica do sistema operacional do computador onde
+
+a minha janela existe.
+
+Ela precisa ter botões caixas de texto rótulos acessar a partir do momento que ele destruiu a minha
+
+janela.
+
+Os botões estavam associados à caixa de texto.
+
+Os rótulos também são distribuídos
+
+ordenada ligação entre os objetos que necessitam assumir uma determinada ordem.
+
+Então tenho a classe cliente.
+
+Eu tenho a classe contract que a gente possui contrato na multiplicidade até em que muitos clientes
+
+possuem nenhum ou muitos contratos e é adicionada uma observação para agregar conhecimento e agregar
+
+informação.
+
+Uma regra de negócio porque foi detectado que era importante essa informação essa é essa informação
+
+e esses contratos devem ser ordenados por data centres.
+
+Uma observação é o item que foi determinado que era importante e foi colocado na documentação
+
+reflexiva associação de uma classe com ela mesmo.
+
+A classe possui um estereótipo que identifica como abstrata o abstract ou ela os relacionamentos com
+
+a interface são de herança e realização
+
+sendo assim eu tenho a minha classe e ligação que ela é abstrata ela é uma interface apenas.
+
+Nela não há implementação.
+
+Onde o local implementa a minha classe ligação interior urbana implementa a minha classe de ligação
+
+eu tenho formas de fazer uma ligação telefônica ou implementar de uma moto de um modo diferente.
+
+Na minha classe local de um modo diferente na minha classe internet banda certo a generalização ou a
+
+herança um relacionamento de generalização e o relacionamento entre no geral e o específico herança.
+
+Se você tem um relacionamento de finalização então sabe que pode substituir uma classe filha pela classe
+
+progenitora ou a classe pai.
+
+A generalização incorpora o relacionamento que permite que você defina relacionamentos com capacidade
+
+de substituição através de relacionamentos com capacidade de substituição.
+
+Você pode usar descendentes infiéis seus ancestrais ou filhos em vez de seus progenitores.
+
+Isso significa em termos de programação que se o método uma linguagem de tipagem forte espera receber
+
+um argumento do tipo de uma classe pai classes filhas poderiam perfeitamente serem passadas como o argumento
+
+do referido médico.
+
+é a capacidade de substituição relacionamento entre o elemento mais geral e o elemento mais específico
+
+respectivamente.
+
+Super Class e subclasse também conhecido como herança ou classificação o elemento mais específico pode
+
+conter somente informação adicional acerca do elemento mais geral
+
+vamos filhos exemplos eu tenho a classe conta uma classe é genérica possui informações genéricas de
+
+uma conta eu tenho a classe de conta corrente eu tenho a classe conta poupança.
+
+Ambas possuem tudo o que há de comum na conta na classe conta e adicionam mais informações mais seguras
+
+mais métodos específicos para a conta corrente e conta poupança respectivamente.
+
+O mesmo acontece com a classe funcionário que possuem atributos e métodos gerais e eu tenho a classe
+
+secretária.
+
+A classe A classe gerente que especializaram a classe funcionário que herdam da classe Sonar elas possuem
+
+tudo o que o funcionário tem mais elementos que apenas secretária é apenas gerente possuem o ganho forma
+
+com isso inclui nitidez com isso
+
+um outro exemplo.
+
+Nós temos um jovem rico eu tenho o vínculo mais genérico possível o veículo esse veículo é dado por
+
+duas classes terrestre e aquático onde atende veículos do tipo terrestre veículos do tipo aquático e
+
+esses por sua vez também são dados que também são dados.
+
+Então tenho o carro de passeio que é um veículo terrestre que é do rei de bico.
+
+Eu tenho um caminhão e um veículo que é de terrestre que eu dou.
+
+Por sua vez de veiculo onde caminhão tem tudo que terrestre tem mais o veículo tem lancha em navio tem
+
+o Loki aquático tem mais o veículo tem tem um caso atípico eu o anfíbio anfíbio e anda de dois lugares
+
+e duas classes.
+
+Ele é de terrestre e de Aquático que por sua vez herdou a idade de veiculo e se chama herança múltipla.
+
+Certo Há uma curiosidade a herança múltipla não é suportada pelos critérios da linguagem.
+
+Apesar de ser suportada por exemplo C++ o seu uso não é recomendado o que não é recomendado porque acaba
+
+ficando um pouco bagunçado quando você pode fazer muita coisa.
+
+é bom e ruim porque quando você pode fazer tudo você você pode fazer tudo isso se não tomar cuidado
+
+pois fica muito bagunçado a organização de todo o projeto.
+
+O software juntando tudo isso vamos fazer um diagrama de exemplo aqui hoje nós temos algumas classes
+
+fornecedor do duque começando lá de cima então temos um fornecedor fornece ora fornece um ou mais produtos
+
+ou vários produtos.
+
+Lute por sua vez possui associações de agregação agregação com tamanho e cor sendo agregação forte para
+
+produto Produto controle agregação sendo nenhum ou muitos produtos possuem nenhum ou muitos tamanhos
+
+nenhum.
+
+Muitos produtos também possuem uma ou muitas cores.
+
+Assim continuando o produto também está em uso um produto também está em nenhum ou muitos itens de pedir
+
+por sua vez itens de pedido eu vou ter um ou vários itens pedido em um pedido e um pedido OK se o cliente
+
+compra nenhum ou muitos pedidos dos quais nenhum dos pedidos o cliente tem na sequência o pedido e pago
+
+com uma forma de pagamento.
+
+Forma de pagamento.
+
+Nós temos a herança onde Boleto Cartão de Crédito e PagSeguro são formas de pagamento.
+
+Conseguimos aqui uma visão geral de todo o nosso diagrama de classe.
+
+Todo um sistema complexo é uma forma rápida e simples
+
+organização de pacotes.
+
+é possível anunciar pacotes de classes como nós já vimos mas temos um pacote de carro compras e temos
+
+o nosso que é importado produtos por exemplo dependência e relacionamento entre elementos em que um
+
+depende do outro e nós já vimos também sempre favorável.
+
+Evitar isso mas em alguns casos não tem como.
+
+Então temos a agenda de cursos que depende de um curso.
+
+Não faz sentido ter uma agenda de um curso e não ter aquele curso para fazer a agenda de
+
+mais uma vez.
+
+Temos a multiplicidade se não especificada sempre a gente nunca assumiu.
+
+Já vimos diversos exemplos até aqui mas vamos capturar mais recapitular mais um evento aqui temos a
+
+classe professor onde muitos professores pertencem a um departamento sem pressa algum diretor um ou
+
+dois professores mais especificamente ministram uma ou muitas disciplinas ou muitas disciplinas.
+
+Enfim muitos cursos.
+
+O curso da disciplina nenhuma com muitas disciplinas possuem um ou dois alunos onde os alunos estão
+
+ou possuem estão em um curso.
+
+O curso possui muitos alunos.
+
+Essa multiplicidade.
+
+Com isso nós sabemos tudo o que vai dar em volta o nosso sistema e temos mais informações sobre a regra
+
+de negócio do nosso software.
+
+Vamos produzir ofícios exercícios todo aluno matriculado é um trabalho de conclusão de curso será orientado
+
+por um professor.
+
+Alguns professores orientam vários alunos e outros professores orientam o aluno para que se faça um
+
+diagrama de classe que represente essa situação.
+
+Antes disso
+
+eu sugiro que você utilize o WhatsApp.
+
+Se você vierem da classe dar o diagrama de classe você verá esta visão aqui.
+
+Nesta visão você pode perceber que você pode criar uma classe o nome dessa classe.
+
+Por exemplo eu tenho
+
+professor um exemplo o homem daqui um pouquinho professor
+
+na nossa classe aqui eu tenho não menos vinho aqui embaixo esquerda.
+
+Eu tenho várias informações que eu posso colocar nele.
+
+Vou inclusive passar aqui um pouquinho atributo.
+
+Eu vou adicionar outro tributo a assessoria vou colocar um nome para esse professor porque geralmente
+
+esta minúscula o tipo de nome tinha um estilingue quando com um texto ai eu tinha a visibilidade privada
+
+muito bem outros o campo com pouca idade sei a relevância é só um exemplo mesmo aqui é para aqui eu
+
+tenho a classe professor atributo nome atributo idade e agora vou colocar uma operação operação só os
+
+médicos eu tenho um método de dar aula por exemplo um retorno é sem retorno muito bem.
+
+Outro método seria por exemplo avaliar aluno se aliar ao aluno.
+
+Por exemplo se poderia colocar
+
+fico mais de acordo com o retorno aqui é o dobro a avaliação de um aluno ele retornaria pra mim ou a
+
+nota de que o ou criar mais uma classe C uma classe aluno
+
+dá nome em
+
+escola tipo listening.
+
+Ele vai ter nota nota dele.
+
+Muito bem o aluno terá um método que você pode usar este não tem um retorno muito bem neste contexto
+
+conseguir especificar a classe professor e a classe aluno.
+
+Vou fazer agora um relacionamento entre professor e aluno muito bem avaliado o aluno agora é importante
+
+que tenha o aluno receba o aluno como parâmetro.
+
+Como vou explícito musicais eu clico aqui no método avaliar aluno eu tenho aqui parâmetros qualquer
+
+parâmetro eu vou receber o aluno do tipo agora criado a minha classe está criada o tipo aluno olha que
+
+legal eu preciso receber o aluno aqui como parâmetro para calcular a nota dele.
+
+Ele fez o teste dele por exemplo certo.
+
+Então eu incentivo a que você pegue faça vários testes.
+
+Criei algumas classes meus relacionamentos explore bastante a ferramenta é uma ferramenta simples com
+
+mais um bom poder de criação.
+
+Voltando à equipe do nosso exercício sugiro que você faça no papel ou no asfalto ou na ferramenta que
+
+você preferir.
+
+Esse exercício.
+
+O vídeo agora faça o exercício
+
+bem vamos dar solução.
+
+Nós temos aqui um professor orientando nenhum ou muitos alunos é possível que ao longo dos exercícios
+
+tenha uma visão um pouco diferente.
+
+As duas respostas se mantiver o padrão se fizer sentido não há nada que possa contestar a veracidade
+
+assertividade da sua resposta.
+
+Sempre há várias interpretações esta aqui é a minha interpretação segundo exercício e aqui esclarece
+
+o seguinte surgiu a obra nós temos obras do tipo romance O Livro de Ficção livro de autoajuda gibi temos
+
+rock MPB filme de ficção e comédia.
+
+Então temos aqui vários tipos de coisa eu quero que você organize isso.
+
+Pause o vídeo faço exercício
+
+muito bem na busca da solução.
+
+Então nós temos um tipo genérico e são obras esse tipo genérico herdado por obras que são do tipo escritas
+
+obras que são musicais obras que são filmes em ambas escritas.
+
+Nós temos livros de autoajuda e ainda escritas de romance de ficção em gibi não escritas rock MPB e
+
+grandes musicais filme comédia e filme de ficção ou de filmes.
+
+Dessa forma fica muito mais categórico e mais categorizada essas informações esses dados com muito mais
+
+espaço mais palpável de utilizar isso é mais modular para o terceiro exercício o cliente pode fazer
+
+diversos contratos de locação de carros em uma locadora de veículos.
+
+A locadora aluga caminhões carros de passeio categoria A B C e Box.
+
+Os contratos diferem no valor imposto imposto de acordo com o tipo de veículo locado num diagrama de
+
+classe para representar as classes e os seus relacionamentos aulas de vídeo para fazer o exercício
+
+vamos lá ver a resposta temos aqui uma classe genérica cliente onde cliente um cliente possui nenhum
+
+ou muitos contratos.
+
+Um contrato faz referência a um veículo.
+
+Esse veiculo é dado por moto e por caminhão caminhão em um método específico pra calcular o valor da
+
+locação.
+
+Assim como o Moto tem um método específico que calcula o valor da locação de acordo com a regra de caminhão
+
+de acordo com a regra de moto esse veículo ele herda de carro carro por sua vez é dado por carros de
+
+categoria.
+
+A categoria é categoria C onde cada um deles possuem métodos próprios para fazer o cálculo do valor
+
+da locação
+
+de ofício o quarto com a diferença de interpretação entre os relacionamentos.
+
+O livro sobre capa e livro página House o vídeo para fazer exercício
+
+na resposta vamos lá.
+
+O livro página é uma composição logo a seguir sinônimos em nível somem as páginas e os parágrafos que
+
+apresentamos on line como algo fisicamente constituído de páginas na agregação livro sobre capa e apresentamos
+
+que o livro pode ser constituído sobre capa sobre a capa e o objeto que existe independentemente do
+
+livro Os tempos de vida.
+
+Os objetos não são semelhantes
+
+vimos nesta aula muita teoria sobre diagramas de classe.
+
+Vimos a construção de diagramas seus relacionamentos e os versos exercícios inclusive uma parte prática
+
+não aceita.
+
+Eu espero que você explore todo esse conteúdo.
+
+Você veja várias vezes se necessário para entender todo esse diagrama como esse conceito que é um diagrama
+
+complexo é muito importante.
+
+Caso fique alguma dúvida caso queira comentar alguma coisa e mande uma mensagem mande no fórum.
+
+Espero que tenha gostado até a próxima aula.
