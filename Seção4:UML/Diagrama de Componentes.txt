@@ -1,0 +1,301 @@
+Falar Bem vindo à aula de diagrama de componentes da aula vamos conhecer todos os principais tópicos
+
+sobre o diagrama de componentes diversos componentes e representação dos componentes e suas dependências.
+
+O componente é a parte física substituído do sistema.
+
+O componente oferece uma interface de comunicação.
+
+Sendo assim o componente é uma coisa extremamente eficaz.
+
+Quando nós queremos reaproveitar parte de um código partes de um programa.
+
+Então controle o melhor componente usado e o nosso sistema mais fácil é a escalabilidade do sistema
+
+já que conseguimos reaproveitar parte daquilo parte daquela funcionalidade.
+
+Então podemos criar por exemplo componentes de login componentes de cadastro componente partes importantes
+
+e reutilizados de um sistema.
+
+Temos então o diagrama de componentes sendo representado de diversas formas.
+
+Uma das principais formas que existe é a representação diagramas componentes.
+
+Essa questão está sendo esboçado na terra boa onde temos o nome do componente uma interface adquirida
+
+para a implementação.
+
+E temos também uma interface exportada quando nós estamos programando.
+
+Nós criamos interfaces.
+
+Nós criamos protocolos de comunicação entre classes e componentes.
+
+Se você tem alguma dúvida sobre o uso de interface ou uso do protocolo eu sugiro que você dê uma pesquisada
+
+entrosamento em programação orientada a objetos para você entender um pouco mais sobre o uso de interfaces
+
+e protocolos.
+
+Ok bons componentes definem abstrações com interfaces bem definidas.
+
+Desta forma é possível a atualização de componentes ou seja trocar os componentes mais velhos por outros
+
+componentes mais novos ou novas versões ou até mesmo o componente um pouco diferente.
+
+Tendo um pouco de definição um componente a parte física ou substituível de um sistema ao qual se adapta
+
+e fornece a realização de um conjunto de interfaces já uma interface é uma coleção de operações utilizadas
+
+para especificar o seu vício de uma classe ou de um componente.
+
+O relacionamento entre componentes e interface é muito importante.
+
+Basicamente a interface é uma guia de regras do que se deve realizar e do que se deve criar.
+
+Este é um diagrama de componentes o qual nós temos alguns componentes e suas ligações sendo o catálogo
+
+de buscas dela implementando um catálogo que rompe quem implementa o catálogo que JB Rome e assim por
+
+diante.
+
+Temos aí uma hierarquia de dependências entre nesses componentes alguns tipos de componentes temos componente
+
+implantação componente do produto do trabalho componente de execução componentes implantação são os
+
+componentes necessários para montar um sistema executável como o dele e arquivos executáveis.
+
+A definição da o ML para componentes e abrangente inclui componentes mais populares como com mais e
+
+JB além de modelos alternativos como páginas web tabelas de banco bancos de dados etc.
+
+Temos aqui mais um exemplo de um componente agora fazendo uso de 10
+
+componentes do produto do trabalho.
+
+Esses componentes são essencialmente parte do processo de desenvolvimento formado pelo arquivo de código
+
+fonte arquivos de dados e ícones.
+
+Esses componentes não fazem parte diretamente em sistemas executáveis mas são os produtos de desenvolvimento
+
+usados para a criação de sistemas executáveis.
+
+Temos aqui um exemplo esse que conta já que utiliza alguns componentes não estou Reckless inglês contactless
+
+conta já.
+
+E por aí vai.
+
+Componentes e execução esses componentes são criados como consequência de um sistema em execução como
+
+componente com mais que sofre uma instância não.
+
+A partir de uma é um diagrama de componente que começa a entender um pouco mais de digamos componente
+
+vamos ver o que pode componente usar quais são os itens ao.
+
+Enfim basicamente sem esses estereótipos padrões que se aplicam aos componentes sendo executada especificam
+
+um componente que poderá ser executado em um nó em um computador biblioteca específico na biblioteca
+
+de objetos estáticas e dinâmicas nas benesses da bens específico uma base de dados tabela específica
+
+um componente que representa uma tabela de banco de dados arquivo específico o componente que representa
+
+um documento contendo o código fonte ou dados e o documento especifica o componente que representa o
+
+documento gerado por um editor de textos chamo os componente
+
+o ícone de componente representa o módulo pedaço de software com uma interface bem definida na especificação
+
+de componente definimos o estereótipo como time x Atlético Location Danielle e por aí vai.
+
+Então nós temos um componente genérico certo que é basicamente uma parte de um software eu consigo aproveitar
+
+consigo tirar um componente adicionar um novo componente e ter uma funcionalidade similar a especificação
+
+e corpo sobre o programa.
+
+Esses ícones representam a especificação visível sobre o programa e o seu corpo de implantação.
+
+O programa costuma ser uma coleção de subir rotinas e programas não contém definições de classes então
+
+nós temos apenas a interface daquela daquele programa que deve ser implementado.
+
+O programa principal esse inclui representa o programa principal.
+
+O programa principal contém a raiz de um programa Java.
+
+Por exemplo seria um programa que tem o metro do meio metro no principal palco e merece inicializar
+
+e ser executado especificação e corpo do pacote o pacote é implementação de uma classe uma especificação
+
+de pacotes constituídos e um arquivo de cabeçalho o qual contém as informações referentes ao protótipo
+
+de função da classe.
+
+Então temos por exemplo na linguagem C++ a especificação de pacotes ou os arquivos H descarrega enviados
+
+a música de especificação de pacote para representar os arquivos Java.
+
+Um corpo de pacote pode apresentar o código para as operações da classe em C++.
+
+Os corpos de pacote são os arquivos CPP por exemplo especificação e corpo da tarefa exigir que representam
+
+os pacotes que possuem linhas independentes de controle.
+
+O arquivo executável geralmente representados como uma especificação de tarefa como extensão XM além
+
+de modelar o comportamento propriamente dito podemos modelar o relacionamento entre no componente e
+
+sua interface.
+
+Então temos o componente genérico e a interface.
+
+Fazemos o relacionamento entre eles o exemplo criar um diagrama de componentes para a funcionalidade
+
+cesta de compras.
+
+Neste momento ficaremos as classes que são necessários para realizar o caso de uso.
+
+Adicionar item na cesta de compras como alguns casos são embutidos novos componentes serão adicionados
+
+ao diagrama.
+
+De acordo com a necessidade então temos aqui uma visão principal do diagrama de componentes tendo o
+
+balde certo x e antes todos os componentes do pacote vendidos.
+
+Esses são os componentes que conterá as classes entidades ausentes são as nossas entidades então as
+
+nossas entidades serão sexta cesta item e produto.
+
+Essas são as nossas classes de entidades onde produtos vão estar relacionados a itens de cesta e uma
+
+cesta com isso todos os componentes do pacote certos são os componentes que contenham as classes de
+
+serviços ou de cultura.
+
+Então temos aqui no nosso blog o nosso produto serve aos nossos desta nossa cesta servos as classes
+
+de serviço de computadores que estão aí no componente de cheques todos os componentes do pacote.
+
+Baldes são os componentes que terão as classes de barro ou de interface do usuário.
+
+Temos aqui nossa sexta interface as classes de interface do Baldo um dos componentes de relacionamentos.
+
+Temos um programa principal temos a nossa interface de sexta mas a sexta interface temos nosso serviço
+
+na 6ª 6ª séries e aí segue se o produto.
+
+Se esta sexta item está item com o produto certo o segundo exemplo fazer uma reserva de apartamento
+
+vamos separar aqui algumas camadas o que é o parte interessante deste trabalho.
+
+O MDC então se se vamos separar em camadas dividiu com outro óleo e o módulo.
+
+Se tiver alguma dúvida em relação a parte do projeto aconselho que você pesquise um pouco mais sobre
+
+esses partidos então nas camadas de vídeo nós temos o menu principal nosso reserva e Way temos na Controller
+
+Clay servos reservas externas apartamento cegos.
+
+Por último nossas entidades de modelo temos cliente reserva e apartamento todos bem definidos e bem
+
+separadas as responsabilidades terceiro e vamos ter um sistema de pedidos e sistema de pedidos.
+
+Pode ver que ele é um sistema um pouco mais complexo temos aqui entidades termos classes diferenciando
+
+usuário histórico tudo mais mas também temos classe que diferenciam uma cesta ou um pedido do produto
+
+forma de pagamento para facilitar e aproveitar essas classes esse software nós componente usamos essa
+
+parte.
+
+Aí nós ganhamos realmente uma performance com os componentes então nós vamos pegar o que há de comum
+
+nessa lógica e não há dependências como por exemplo vendido boletos ou seja cesta de compra nem desejado
+
+vermelho produto noutros despejado de azul em forma de pagamento.
+
+Neste desejado vinho vamos criar componentes em relação aos ficando desta forma onde temos aqui os componentes
+
+de produto.
+
+Dependendo de cesta que depende de pedido que depende da forma de pagamento temos uma visão componente
+
+exata do nosso sistema que conseguimos reaproveitar.
+
+Esses módulos esses componentes ainda mais em algum outro sistema em alguma coisa dramática ou pelo
+
+menos jamais organizado dentro da nossa documentação e do nosso sistema
+
+organização de componentes.
+
+Especificação de relacionamentos dependências mais comuns.
+
+Realização a dependência e a dependência de um componente em relação ao outro.
+
+Então nós temos uma linha de uma associação ou uma seta indicando qual é a dependência.
+
+Onde calculadora e xn depende de calculadora ou PJ que depende calculado do CPP que depende de calculadora
+
+ponto H temos aqui mais ou mais um exemplo de dependência onde uma componente de interface depende do
+
+componente de saques.
+
+Esse por sua vez depende aí de componentes de cadastro de cliente cadastro de consorciado e nas ações
+
+que por sua vez dependem aí de algumas tabelas na tabela Clientes tabela consorciado tabela transições
+
+que dependem de uma base de dados e realização.
+
+Eles são a representação de uma interface em ML numa forma canônica uma forma simples.
+
+Então a representação da realização quando tem um componente implementando uma interface.
+
+Então a representação de uma interface é na forma simples.
+
+Eu tenho uma associação com o na forma um pouco mais na forma explodida.
+
+Eu tenho o desenho de uma interface sendo implementada certo aqui mais alguns exemplos onde eu tenho
+
+o B matemática implementando a interface de matrizes e o pé matemático em a parte de baixo também uma
+
+outra forma de escrever e de fazer a implementação de representar na implementação da interface de matrizes
+
+é a mesma coisa que eu separei algumas referências algumas coisas que você pode usar para pesquisar
+
+não tem inimigos contra sites ou alguns links.
+
+Então vá um pouco mais atrás no estúdio pretende aprofundar um pouco mais no meu conhecimento tenho
+
+um exercício esse exercício e faço um diagrama de componentes relativo à instalação de uma aplicação.
+
+Considere a aplicação em cortes ou sobre o ambiente Microsoft Windows responsável pelo gerenciamento
+
+de entrada e saída de correspondência de uma organização qualquer aplicação consiste num conjunto variado
+
+de componentes de instalação chamados um corpo que contém arquivos executáveis na aplicação.
+
+Algumas delas são bibliotecas com um código binário que iniciam sexualidades adicionais ou arquivos
+
+de ajuda a arquivos de configuração da aplicação e arquivos de tabelas de base de dados.
+
+Para usar como suporte Git pause um pouco o vídeo e tente fazer o exercício
+
+verificando agora a solução.
+
+Nós vemos a dependência do banco em relação aos demais componentes e um componente DLL que depende também
+
+de uma segunda DLL
+
+espero que tenha gostado tenha definido um pouco de conhecimento sobre o diagrama de componentes e soube
+
+também a teoria de componentes que sempre é muito útil pra utilizar no software para você poderia aproveitar
+
+módulos de um software.
+
+Qualquer coisa mude a mensagem no fórum vamos debater obrigado e até quase mal.
