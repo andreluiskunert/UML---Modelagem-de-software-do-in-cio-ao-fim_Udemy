@@ -1,0 +1,413 @@
+Foi a VI aula de diagrama de sequência um diagrama de sequência diagrama usado não ml que representa
+
+a sequência de processos mais especificamente de mensagens passadas de objetos num programa de computador
+
+em um sistema então uma etapa de definição e construção representa a interação entre os objetos através
+
+de seus relacionamentos e troca de mensagens demonstra a dinâmica do sistema com ênfase na ordenação
+
+temporal das mensagens.
+
+Uma fase de análise diagrama de sequência podem ser usados para fazer a modelagem de mensagens envolvidas
+
+num caso de uso.
+
+Já na fase de projeto diagrama de sequência são usados para mostrar o encadeamento de chamadas de operação
+
+chamados de métodos.
+
+A ativação do objeto no diagrama de sequência quando se dá quando uma mensagem é recebida tem em si
+
+uma ativação ou seja inicia se uma atividade no objeto receptor.
+
+Quando o objeto está ativado ou ele está executando alguma atividade ou ele está esperando pelo retorno
+
+de um outro objeto qual enviou uma mensagem a troca de mensagens.
+
+O diagrama de sequência se dá desta forma temos um ator este ator está sendo representado por um caixa
+
+esse que esse ator inicia uma linha de vida.
+
+Essa linha de vida tem um tempo que decorre pela utilização desse sistema.
+
+Temos aqui os objetos caixa e SPC o ator caixa ele é solicitado a forma de pagamento significa que a
+
+entidade caixa solicita para o ator solicitar para uma pessoa com a forma de pagamento.
+
+O ator vai lá e fala a minha forma de pagamento e um pagamento via crediário é minha opção.
+
+O projeto CAIXA processa isso e retorna perguntando solicitando dados cadastrais quais são os dados
+
+cadastrais.
+
+O nosso ator vai lá responde.
+
+Os dados cadastrais.
+
+Neste momento o objeto caixa dispara uma nova mensagem.
+
+Agora algum objeto SPC que é então ativado.
+
+Até agora ele não havia sido ativado ele é ativado na consulta de crédito a consulta de crédito é processada
+
+e retorna o crédito ok.
+
+O objeto caixa ou objeto do caixa então retorna para o ator.
+
+O conjunto de boletos.
+
+Sendo assim o fluxo de uma parte do sistema foi representada nessa representação.
+
+Tivemos a interação de moto caixa de um objeto do Sistema caixa de objetos do Sistema SPC e toda a interação
+
+entre troca de mensagens é uma forma simplória entre eles as regiões de interação região de interação.
+
+Esse quadrante que fica em torno do nosso diagrama de sequência.
+
+Ele não é obrigatório ele é apenas para organizar tudo ficou pouco mais fácil entender e Mitsui de um
+
+sistema.
+
+Parte de uma interação.
+
+Quando você tiver um diagrama muito extenso quando tiver uma rede muito extensa então esse diagrama
+
+de interação ele explica como é o comportamento qual é a sequência lógica esperada para o aluguel do
+
+filme.
+
+Então o atendente aciona o código de um filme.
+
+Ativa o objeto aluguel que por sua vez envia a mensagem para a entidade filme consulta o filme que retorna
+
+os dados do filme.
+
+O aluguel chama ele mesmo pode reparar ou calcular o preço de e calcule o preço devolvendo a preços
+
+e prazos para o atendente ou do outro solicitante o ator como já vimos nas aulas anteriores são entidades
+
+externas que interagem com o sistema e que solicitam o serviço.
+
+Normalmente o ator primário é o responsável por enviar a mensagem inicial que inicia a interação entre
+
+os objetos por sua vez.
+
+O objeto representa as instâncias das classes representadas no processo.
+
+Então o objeto é o que vai ser ansiado ao longo do uso daquela atividade ou aquela funcionalidade temos
+
+também o foguete o foguete indica o ponto em que a mensagem pode ser transmitida para dentro ou para
+
+fora.
+
+é como se fosse o ponto inicial inicial no nosso diagrama de sequência a linha de vida as linhas de
+
+vida que compõem a dimensão vertical uma linha de vida composta de duas partes a cabeça e a cauda a
+
+cabeça é representada por um retângulo com dois compartimentos do compartimento superior.
+
+A identificação do objeto em seguida no compartimento inferior cuja utilização é o que só aparece em
+
+valores dos atributos definidos na classe do objeto.
+
+A cauda correspondente corresponde a uma linha vertical fechado estamos aqui então o exemplo onde temos
+
+o interesse acho que é todo nosso diagrama de sequência.
+
+Temos nossa linha da vida ou sei lá Fellaini temos o nosso grande Bold inicial com o nosso diagrama
+
+de sequência temos o nosso recurso especial que acho que é hora que está tendo a ação do nosso game
+
+o ponto de ação no nosso game.
+
+Temos uma doca de mensagem entre um objeto e outro e temos o recebimento de uma especificação de uma
+
+mensagem a partir de um ou de um segundo objeto uma mensagem por sua vez é a notação para a notação
+
+para uma mensagem diagrama de sequência e uma flecha geralmente desenhada na horizontal.
+
+Veremos o porquê disso logo mais pegando uma linha de vida o objeto do qual parte a seta é aquele que
+
+está enviando a mensagem o objeto remetente objeto para o qual a seta aponta aquele que está recebendo
+
+a mensagem.
+
+Nosso objeto receptor o formato da ponta da seta indica o tipo de mensagem sendo enviada.
+
+Essa mensagem pode ser síncrona ou assíncrona.
+
+Como já estudamos anteriormente o rótulo da mensagem posicionado acima dessa seta temos aqui um exemplo
+
+de troca de mensagens onde temos aqui alguns objetos distanciados e setas enviando mensagens.
+
+Repare na cabeça da seta assíncrona que é apenas metade na cabeça dela significa que há uma mensagem
+
+assíncrona ou seja o envio essa mensagem não aguardo o retorno dela.
+
+é diferente de uma mensagem síncrona que é representada no objeto abaixo do esquerdo onde o envio uma
+
+mensagem o tão aguardado retorno dela temos uma notação algumas notações de mensagens em uma troca de
+
+mensagens.
+
+Além de colocar o nome de uma mensagem como referência podemos colocar atributos e condições que fiquem
+
+mais explícitas as características de regra de negócio na troca de mensagens onde eu tenho aqui um busto
+
+o objeto possui um objeto ainda que vai ser realizada enquanto x for menor que 10 tiver e vou chamar
+
+o método do total que me retorna um valor inteiro.
+
+Por exemplo posso colocar condicionais aqui cheio de mensagens como acabamos de falar temos mensagens
+
+síncrona as mensagens há cinco anos as mensagens cinco anos nós vamos lotar o emissor que fica bloqueado
+
+até o receptor receber a mensagem uma chamada de procedimento quando ela envia uma mensagem e eu aguardo
+
+o retorno daquela mensagem.
+
+é nesse momento que costuma aparecer nos mesmos sistemas aqueles logins aguardando o processo aguardando
+
+somente uma mensagem.
+
+5 O emissor continua a emitir novas mensagens o continuou a interagir com o sistema porque não há dependências
+
+operação para apresentação de uma mensagem no monitor por exemplo.
+
+Então envie uma mensagem.
+
+5 enviar uma mensagem e não é aguardado o retorno dele quando retornar o seu objeto receptor envia uma
+
+nova mensagem do objeto emissor temos aqui a explicação do anotação dessas Secex uma mensagem síncrona
+
+com uma seta inteira uma mensagem assíncrona com uma seta pela metade.
+
+Lembrando que de acordo com a ferramenta que você estiver utilizando depois de ter pequenas variações
+
+dessas notações desses desenhos os conceitos são os mesmos a seta também pode estar em uma posição oblíqua
+
+para indicar que a mensagem consome tempo tem um delay que apresentam atrasos na exibição que não são
+
+desprezados.
+
+A dinâmica do conjunto pois depois de consultar o BdP o banco de dados qualquer e eu tenho o tempo de
+
+deslocamento muito longo.
+
+Então representamos desta forma eu posso representar com uma seta na horizontal e uma queda grande ou
+
+apenas uma queda já total.
+
+Isso significa que essa mensagem está consumindo o tempo que ela vai ter um deles vai atrasar.
+
+Então fica claro para quem está olhando que aí eu tenho o gargalo de tempo que poderia mostrar uma forma
+
+melhor
+
+temos uma mensagem reflexiva ou auto delegação.
+
+O que é isso.
+
+Quando o objeto manda uma mensagem para ele mesmo que seja uma mensagem single ou assíncrona
+
+a criação e destruição de objetos se dá quando o objeto envia uma mensagem para um segundo objeto ele
+
+está criando um objeto ou ele pode enviar uma mensagem para descobrir aquele objeto da ONU naquele objeto.
+
+Para remover aquele objeto da memória aquele objeto não vai ser mais necessário.
+
+Então eu vou limpar aquilo da memória obrigatoriamente
+
+tempo de atividade da mensagem corresponde ao tempo durante o qual o objeto exerce sua ação direta ou
+
+indiretamente através do objeto que lhe presta serviço.
+
+A representação é dada como retângulos cujas bordas representam o período de atividade sendo assim quando
+
+o ativo objeto eu tenho esse retângulo na linha vinda daquele objeto que é criado.
+
+Então a ativação eu posso ativar em níveis ao longo de um processo.
+
+Aquele objeto
+
+o tempo de atividade dos objetos Cidão são representados pelo tamanho desse retângulo da ativação do
+
+objeto.
+
+Então nós temos uma noção desta foto nesta hora e quanto tempo aquele objeto ficou criado durante aquela
+
+atividade durante aquela sequência de atividade.
+
+Uma funcionalidade única o retorno de uma mensagem síncrona se dá e imediatamente após o processamento
+
+dela é aguardado esse retorno.
+
+Enquanto que o retorno da mensagem assíncrona eu não sei quando eu vou retornar.
+
+Eu sei que quando retornar a esse processo eu vou ter que tratar o objeto que enviou a requisição para
+
+saber como trabalhar com isso para saber o que deve ser feito se é que deve ser realizado alguma coisa
+
+sobre a ativação a ativação de objeto que já estava ativado representou o empilhamento de funções de
+
+um mesmo objeto.
+
+Significa que um objeto foi tão ansiado n vezes não é errado fazer isso de acordo com as regras de negócio
+
+previamente estipulada pois se dá a necessidade disso mas fica um ponto de atenção você está utilizando
+
+mais memória possivelmente o que poderia mas lembrando isso de acordo com a regra de negócio estipulada
+
+do teu sistema temos a inclusão de pseudo códigos de laço luz.
+
+Então podemos referenciar também o objeto a enviará uma mensagem de acordo com o laço.
+
+De acordo com uma regra x lá dentro de sua área.
+
+Então o raio x regra envia uma mensagem enviando envia enviando até o finalizar essa minha regra é sair
+
+desse golpe da mesma forma.
+
+Temos também a inclusão de pseudo código de condição condicionais nos nossos.
+
+Então se uma certa condição for verdadeira o objeto a envia uma mensagem para o objeto B se não o objeto
+
+a envia uma mensagem por exemplo para um objeto c
+
+temos alguns tipos de classe porque trabalhamos bastante no programa de sequestro nas classes de fronteira
+
+nosso balneário que é uma classe que modela a comunicação entre a vizinhança do sistema e suas operações
+
+internas.
+
+Por exemplo interface de janela protocolo de comunicação interface são sensores então as classes de
+
+interface com o SO a interface com o mundo externo.
+
+Nossa interface gráfica.
+
+Basicamente temos também as classes de entidades nossas enquetes.
+
+Essas são a classe que modela objetos cuja informação e o comportamento associados são de maneira geral
+
+persistentes.
+
+Por exemplo sistema automatizado de matrícula no curso as classes de objetos TI vai ter uma lista de
+
+cursos cujo catálogo matricula.
+
+Então são classes que armazenam informações manipuladas pelo sistema.
+
+Só aquelas classe que nós vamos manter informações e temos as classes de controle control que são uma
+
+classe que modela o comportamento de conteúdo específico para um ou mais casos de house music.
+
+Suas principais características são.
+
+Ela cria ativa e anula objetos escalas que ela contou.
+
+Ela controla a operação de objetos de alguns determinados objetos controla a concorrência de pedidos
+
+de objetos controlados.
+
+Em muitos casos corresponde à implementação de um objeto intangível e o objeto que vai ser criado apenas
+
+para fazê lo.
+
+Para os demais objetos apenas para organizar os demais objetos então não só se coordena o comportamento.
+
+No caso de uso definindo uma interface entre classes fronteira e entidades ela fica em uma classe fronteira
+
+uma classe de entidades
+
+dos
+
+vamos
+
+aqui não vamos pegar um diagrama de sequência num diagrama de sequência.
+
+Nós poderemos criar alguns objetos certo não vou criar o objeto ou darei o segundo objeto 2 esse objeto.
+
+1 enviará uma mensagem
+
+síncrona ao objeto.
+
+2 A mensagem
+
+será o teste chamado de teste e o objeto.
+
+2 responderá
+
+aqui com o resto exemplo a mensagem vai dar de retorno
+
+certo.
+
+Com isso nós temos as trocas de mensagens nesses objetos.
+
+Certo O diagrama de sequência sugiro que você explore mais a ferramenta aceita e veja todo seu potencial
+
+voltando agora para o primeiro exercício.
+
+Temos um diagrama de sequência e esse abre uma sequência com outros objetos o objeto a objeto B e o
+
+objeto C fazem trocas de mensagens agora com a ordem das mensagens enviadas.
+
+7.
+
+Deixe um pouquinho você pode fazer exercício no papel.
+
+Use o vídeo
+
+muito bem.
+
+11.
+
+Agora a ordem de envio dessas mensagens para pare de atuar envia a mensagem game.
+
+O método é de uma a duas vezes.
+
+Não há uma interação certo só que quando o objeto B recebe essa mensagem ele imediatamente após ele
+
+está certa uma mensagem para o objeto que vai de 1 até 10 também chamando a mensagem.
+
+2 A ordem onde isso fica a mensagem e em seguida 3 mensagens Emídio 2 volta para o objeto a uma mensagem
+
+e em seguida novamente com mais três mensagens m2.
+
+Certo
+
+vamos para o segundo exercício.
+
+Faça o diagrama de sequência para representar um cliente que efetua uma retirada de 50 reais no caixa
+
+automático retirar deve ser debitado na conta corrente do cliente.
+
+Use o vídeo e faça um diagrama.
+
+Muito bem vamos para a solução temos aqui o ator cliente temos as uma interface de caixa eletrônico
+
+e temos uma controle um controle de retirada e uma outra entidade que a conta corrente muito bem o clientes
+
+a cotação inserir em cartão que vai chamar o cartão inserido Bailey o cartão e só na sequência o cliente
+
+depois de ler o cartão.
+
+A conta corrente acessa e envia uma solicitação de senha.
+
+O cliente então digita sem essa senha
+
+ele retira e pede para retirar 50 reais.
+
+Ao retirar 50 reais e não ser debitado 50 reais a máquina vai fazer o processo de entregar o dinheiro.
+
+O cliente vai receber o dinheiro retirado então devo estudou se a entidade conta corrente e a máquina
+
+devolve o cartão para o cliente e o processo de caixa eletrônico.
+
+7
+
+espera que você tenha entendido toda a dinâmica de um diagrama de sequência.
+
+Toda a teoria é que pratique alguns exercícios também.
+
+Certo Se ficou alguma dúvida mande uma mensagem no fórum de debate ok obrigado até pelo proximal.
