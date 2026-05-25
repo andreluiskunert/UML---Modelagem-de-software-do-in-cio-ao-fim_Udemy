@@ -1,0 +1,293 @@
+Lá bem vindo à aula e diagrama de atividade que não há atividade.
+
+Nosso fluxo de controle de uma atividade para outra o fluxo de atividade em relação a um caso de operação
+
+de um objeto do método pode ser considerado uma variação do diagrama de estados que vemos na aula anterior.
+
+Isto é uma ideia.
+
+Eu fiz um comparativo entre o diagrama de estados e o diagrama de atividades enquanto que o diagrama
+
+de estados mostra o comportamento de um objeto através da transição de estados ou diagrama de atividade.
+
+O nosso fluxo de atividades de um caso de uso ou de uma operação de um objeto Bullet ou diagrama de
+
+estados a relação a relação diagrama de estados como objetos.
+
+A relação do diagrama de atividade e diagrama de atividades em relação ao caso de diagrama de estados
+
+mostra estados do objeto diagrama de atividade mostra estados de atividade ou estado de ação.
+
+O diagrama de estados de transição de estados depende na maioria das vezes de um evento externo uma
+
+efetividade.
+
+A transição não depende de evento externo diagrama de estados.
+
+O comportamento é representado em um nível mais abstrato.
+
+O diagrama de atividade o comportamento é representado em um nível mais detalhado certo dos elementos
+
+comuns.
+
+O diagrama de atividade e estado de atividades e ações transições ramificações raias objetos e interrupções
+
+são opcionais e estado de atividade.
+
+Execução não atômica execução não atômica significa que o estado de atividade ainda pode ser decomposto
+
+em outros estados de atividades e estados de ações.
+
+Essa decomposição é mostrada por outro diagrama de atividade e estado de atividade execução atômica
+
+execução atômica.
+
+Significa que o estado de ação não pode mais ser decomposto.
+
+Portanto o estado de ação é um estado de atividade que não pode ser mais decomposto
+
+representação de estados e cidades e de ações.
+
+Cidadão desses quadrados com o nome da atividade por exemplo pode acessar o pedido cobrar ao cliente
+
+efetuar o pagamento consultar SPC adicionar contador imprimir cabeçalho.
+
+Repare que são nomenclaturas iguais às dos diagramas de casos de uso transições quando a ação ou atividade
+
+está completa o fluxo de controle passa imediatamente ao estado seguinte de ação ou atividade.
+
+A transição é representada graficamente por uma seta simples ligando duas ações ou atividades.
+
+A seta não carrega nenhum o rótulo é para que temos então o nosso estado inicial se dando para uma bola
+
+preta o nosso estado final de atividade se dando como uma bola preta com uma mão um círculo em volta
+
+igual o diagrama de estado e temos agora as direções gerais do nosso dia a nossa atividade inicial temos
+
+lá apresentar caixa de diálogo imprimindo depois criar aqui uma impressão na sequência enviar o arquivo
+
+para a impressora depois esconder caixa de diálogo ok ramificações indicam caminhos alternativos no
+
+fluxo de controle das atividades e ações.
+
+Representação com adição bifurcação e União tratamento de interrupções.
+
+Sendo assim as ramificações são o ponto de ramificação ou fluxo de controle.
+
+Pode ocorrer a partir de uma condição booleana expressa em um diagrama de extremidades através do losango.
+
+Então temos um estado inicial lei e tendo pedido e termos uma verificação.
+
+O losango onde se dá o fim do pedido ou verificado estoques verificando o estoque.
+
+Podemos ter um saldo indisponível ou podemos ter o saldo disponível.
+
+Essa é a nossa condição.
+
+Essa é a nossa ramificação.
+
+Nós vamos criar fluxos alternativos com isso certo ele já indicou o conjunto de atividades que ocorrem
+
+sob determinada condição interações processamento paralelo indicam que a partir de um determinado conjunto
+
+de atividades pode ocorrer uma determinada situação.
+
+Interrupções exceções ramificações a representação bifurcação e união.
+
+Uma bifurcação representa fluxos de controles com correntes e atividades ou ações.
+
+A união representa o encontro dos fluxos concorrentes uma barra de sincronismo é usada para representar
+
+a bifurcação e a União então temos aqui a bifurcação dando esta barra aqui sendo que em nosso estado
+
+inicial vai para inicializar de início alisando que vai ter uma bifurcação indo parar formatando ou
+
+para atualizando barra de e para atualizando barra de progresso e depois ambos vão para o estado final
+
+juntos dando aí a União certo objetos objetos podem ser apresentados opcionalmente em um diagrama de
+
+atividades.
+
+Indicação de armazenamento ou leitura dos objetos.
+
+Condições para início de atividades edições e organização e organização das atividades.
+
+O diagrama de atividades pode ser dividido em segmentos chamados de raios ou some Lens.
+
+Os Estados atividade ação são representados de forma distribuída entre as raias de tal forma que fique
+
+claro qual o objeto ou papel executa a atividade ou ação.
+
+Temos então que o exemplo das mulheres são as raias são as divisões o nosso diagrama de atividade.
+
+Eles Elas nos ajudam então a organizar todo o nosso diagrama para que temos um único estado inicial
+
+ainda lá na raia de cliente quer solicitar o produto.
+
+Fazemos então uma bifurcação para processar pedido que o leva para a área de vendas e depois para a
+
+raia de estoque que separa materiais envia pedidos enquanto que o cliente acompanhava o pedido naquela
+
+bifurcação.
+
+Então a União é acompanhar o pedido e enviar o pedido para cobrar o cliente e receber o pedido que vai
+
+fazer uma nova união para pagar cobrança e finaliza em cobrar ao cliente.
+
+E para que a fim de conseguir ver todo o processo no nosso sistema em alto nível entendido tudo o que
+
+deve acontecer no nosso sistema.
+
+Todos os casos de uso de toda a ordenação dos casos de uso vamos colocar mais alguns elementos diagrama
+
+de atividades para implementar uma operação.
+
+Encontrar a maior ora encontrando o maior valor dentro dos elementos de um vetor de 100 ocorrências
+
+por exemplo.
+
+Então nós temos aqui o estado inicial onde é igual a zero.
+
+Passamos para o igual e mais o valor de se o valor for igual a 1.
+
+Eu vou pra ver.
+
+Já falou que ele é o meu maior valor porque senão eu falo que verifico é função de maior valor e o meu
+
+algorítimo é como se fosse o teste de mesa quem está mais habituado a programação.
+
+O mesmo ocorre se eu quiser fazer uma somatória por exemplo uma ou outra função de alguma outra forma.
+
+Então diagrama entidade pelo meio da operação onde soma a diagonal principal para encontrar a soma dos
+
+elementos da diagonal principal de uma matriz 3 por 3 eu tenho então esse exemplo de ficar só com o
+
+diagrama.
+
+Exemplo dedicação do meu algoritmo no meu teste de mesa.
+
+Tá certo
+
+aqui nesse diagrama você vai encontrar três opções a mais.
+
+Temos uma região que é essa linha pontilhada esse quadrante ou telhado que ajuda apenas a organizar
+
+o diagrama em algumas regiões e algumas partes do diagrama um cara destacado quero separar pra facilitar
+
+um pouco a leitura e a idéia temos também a interrupção.
+
+A interrupção é aquela mesma ideia de leitura de máquina que nós temos hoje determinados sistema vai
+
+fazer uma interrupção mas dá uma chamada vai disparar uma timing para fazer alguma coisa então pode
+
+acontecer alguma coisa no meio do caminho.
+
+Independente do Estado que estiver eu posso ser interrompido para fazer aquilo certo.
+
+Eu também tenho objetos que eu posso exemplificar de uma forma um pouco mais nítida.
+
+Além do meu estado de atividade coloco o objeto preciso realmente utilizar aquele objeto.
+
+Quando eu vou utilizar diagramas de atividades então quando eu precisar fazer principalmente o fluxo
+
+no meu diagrama de caso de uso o fluxo de operação do objeto é um método muito complexo.
+
+O Filosofia um sistema hoje envolve muitas funcionalidades
+
+antes de fazer o primeiro exercício.
+
+Vamos para o basta.
+
+Vamos conhecer um pouquinho do diagrama de atividades do lago asfalto
+
+não basta.
+
+Você vai ter um em diagramas e nós temos aqui o nosso diagrama de atividade nossa grande atividade é
+
+muito simples e utilizá lo sempre.
+
+O estado inicial o nosso estado final temos as atividades e podemos fazer as ligações entre elas foram
+
+assim.
+
+Aqui geralmente muito simples muito simples eu aconselho que você pegue e faça uma boa exploratória.
+
+Não acho que ele fique mais funcionais.
+
+Veja tudo o que a ferramenta tem disponível para você está certo.
+
+Voltaremos para nosso exercício
+
+aqui no nosso exercício.
+
+Nós temos o seguinte análise o diagrama de caso de uso abaixo referente ao módulo de Martinica e construa
+
+um diagrama de atividades para demonstrar modelagem dos processos do negócio.
+
+Temos o diagrama de caso de uso onde temos um aluno que pode consultar informações de curso.
+
+Ele estende o sonar lembra consultar informações de turma.
+
+Ele pode consultar o que pode ou não realizar uma matrícula.
+
+Ao realizar a matrícula nós mantemos alunos salvamos alunos certo pause o vídeo faça um exercício
+
+e vamos para a solução temos aqui então o nosso estado inicial que vai para consultarem informações
+
+em curso.
+
+Temos uma bifurcação temos uma condicional civil interessou o curso o consulado não fecha se ele se
+
+interessou por algum curso consultar informações das turmas.
+
+Turma com horário compatível.
+
+Se eu tenho eu solicitou matrícula se não finalizo ao solicitar a matrícula executou o caso de uso manter
+
+o aluno na sequência efetivou matrícula e finaliza certo eu fiz só 2 curso onde haveria uma atividades
+
+para o seguinte processo de negócio autorização do pagamento tem isso após o pedido ter sido realizado
+
+pelo cliente.
+
+Ao mesmo tempo a disponibilidade para cada um dos itens do pedido é verificada pelo depósito.
+
+Se a quantidade requisitada de um determinado item não existe em estoque a quantidade é associado ao
+
+pedido.
+
+Caso contrário a quantidade do item será alterada se houver em quantidade menor se a quantidade em que
+
+o estoque foi igual a zero o item será excluído ou pedido enviado pelo depósito ao cliente quando todos
+
+os itens estiverem associados e o pagamento estiver autorizado ou pedido será cancelado se a ordem de
+
+pagamento não tiver sido autorizado eu aconselho que você faça um diagrama de caso de uso deste exercício
+
+e na sequência do diagrama e atividades para facilitar o entendimento use o vídeo.
+
+Faça exercício
+
+vamos para a solução na solução temos o nosso nossa atividade inicial eles acreditam que vai fazer uma
+
+bifurcação e deserta tarefas em paralelo autorizar o pagamento verificar a disponibilidade de dinheiro
+
+no estoque que se evite itens no estoque suficiente associa aí tenham pedido se não exclui tendo pedido
+
+altera se a quantidade de itens no pedido sendo necessário cingir se o item a ser verificado para pedir
+
+o voto e verifica a disponibilidade se não o meu pedido vai ser autorizado.
+
+Se for autorizado envia pedido ao cliente se não cancela o pedido e assim eu chego na minha atividade
+
+final certo
+
+espero que você tenha gostado do diagrama de atividades tenha sentido pra você.
+
+Caso tenha ficado alguma dúvida aconselho que eu veja os vídeos mande mensagens fotos e estude bastante.
+
+Tá certo.
+
+Obrigado.
+
+E até a próxima aula.

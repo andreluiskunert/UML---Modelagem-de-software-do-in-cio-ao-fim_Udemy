@@ -1,0 +1,343 @@
+Olá bem vindo à aula de diagrama de estados polo são mais comuns diagrama de estados e modelagem do
+
+comportamento de objetos antigos especialmente instâncias de classe e do sistema como um todo o lixo
+
+o objeto reativo aquele cujo comportamento é caracterizado por sua resposta a eventos ativados externamente
+
+e o seu contexto.
+
+O objeto reativo é um claro tempo de vida diagrama de sequência possui vários objetos onde a grama de
+
+Estado possui um objeto para se ter uma ideia diferente você tem que pensar com um diagrama de estado
+
+tiveram o comportamento de estados de um objeto.
+
+Esse comportamento vai ter um estado inicial daquele objeto.
+
+Ele vai ter um fluxo contínuo de trabalho podendo ter várias bolhas condicionais.
+
+Ele pode ir para um lado e para o outro lado e chegar a um estado final ou não de sequência.
+
+Isso aqui a gente consegue e consegue ter uma clareza do ciclo de vida de um objeto o que nos dão é
+
+o entendimento do que pode percorrer aquele objeto.
+
+Pode acontecer que aquele objeto ao longo do fluxo da nossa aplicação ao longo do uso do nosso sistema
+
+o diagrama de estado mostra uma máquina de estados de um objeto representa representando seu ciclo de
+
+vida onde podemos visualizar a transição de estados do objeto causada por eventos.
+
+Assim basicamente representamos dois conceitos num diagrama de estados os estados daqueles objetos e
+
+os eventos que ocorrem com aqueles objetos um Estado e uma condição ou situação na vida de um objeto
+
+na qual o objeto permanece por um período que é uma quantidade finita de tempo.
+
+O estado possui várias partes eles têm um nome pode ser e era originalmente nós utilizamos o verbo o
+
+gerúndio ou até mesmo adjetivos possui também variáveis de estados são opcionais e possuem atividades
+
+de entrada internas e de saídas que são opcionais de saída este é o exemplo de um Estado.
+
+Então temos um Estado imprimindo relatório damos o segundo estado processando pedidos e este por sua
+
+vez tem algumas variáveis de algumas atividades abrir arquivos verificar o estoque na cadeia itens com
+
+estoque suficiente e alguns outros é mais certo.
+
+Muito simples a anotação de um diagrama de estado temos também estados especiais que têm o estado inicial
+
+da nossa máquina de estado e o estado final da nossa máquina de estado.
+
+Isso ocorre de acordo com uma transição que especifica qual este é qual será o novo estado de objeto
+
+quando este recebe um determinado evento então estamos aqui demonstrando nossa simbologia de um estado
+
+inicial que essa bola completamente preenchida uma bola preta completamente preenchida em termos de
+
+nosso estado final que é uma bola preta completamente preenchida com um círculo em volta representando
+
+então o estado inicial e o estado final.
+
+O diagrama de estado presente ao lado direito da tela.
+
+Nós temos um estado inicial como todo diagrama deve ter apenas um único estado inicial que é a janela
+
+está fechada a partir do momento que nós estamos no Estado.
+
+A janela está fechada.
+
+Ela só pode percorrer para o próximo estado que é o ponto em estado de alto muito bom.
+
+A partir do momento que estão o estado pronto ele tem três opções finalizar e saiu do diagrama de estado
+
+indo para um estado final.
+
+Ele pode consultar um servidor e vai fazer a consulta do servidor de continuidade.
+
+Ele vai atualizando janela muito bem ou a partir do estado pronto ele pode também para atualizando a
+
+janela e atualizando a janela.
+
+Ele perde apenas para o estado de projeto e faz esse ciclo.
+
+De acordo com a necessidade e condicionais que possuem dentro do diagrama de estados certo temos eventos
+
+o evento é qualquer coisa que cause a transição de um Estado em um objeto em uma mensagem ou o objeto
+
+recebe é um evento lá no nosso diagrama de estados então temos aqui dois 2 dois eventos sendo disparados.
+
+Então temos um Estado acesa e o Estado apagada referenciando aí o diagrama de estado que uma lâmpada
+
+provavelmente então temos aí acesa ele só pode ir para o e só pode disparar o evento desligar o interruptor
+
+então a lâmpada está acesa disse paramos o evento desligar monitor então a lâmpada estará num estado
+
+apagada.
+
+A lâmpada estava em estado apagada.
+
+Podemos mandar apenas o evento desligar o interruptor.
+
+Então a lâmpada vai estar em estado acesa novamente.
+
+Você pode reparar que o diagrama de estado vai muito além da computação.
+
+Nós conseguimos demonstrar com um diagrama de estado várias situações da vida real.
+
+Nela conseguimos colocar inúmeros casos que facilitam o nosso entendimento facilitam a transição de
+
+situações além de Estados que podem ocorrer em determinados casos.
+
+O que nos ajuda muito além da documentação de um sistema temos agora o mesmo diagrama de estado um pouco
+
+mais bem elaborado.
+
+Então vamos lá temos uma rápida dica que deve existir somente o estado inicial como hoje aqui se pode
+
+existir mais do que o Estado afinal é o estado final e ele é opcional.
+
+Eu não preciso colocar obrigatoriamente o estado final muito bom vamos melhorar o entendimento desse
+
+diagrama.
+
+Temos o nosso estado inicial que cai diretamente ao Estado a sisa que ele pode fazer eu desliguei o
+
+pintor e caí no estado apagada.
+
+Ou pode ligar interruptor e caí em estado acesa.
+
+Muito bem e também a partir do Estado Sesa.
+
+Após isto pode haver uma sobrecarga de energia.
+
+E acaba caindo no estado quem manda.
+
+Ao chegar no estado quem manda não é mais possível voltar não tem mais o que fazer.
+
+Ou a nossa máquina nosso diagrama de estado cai no estado final.
+
+Alguém temos um pouco de sintaxe.
+
+Agora temos a assinatura do nosso evento antes do nosso evento nós podemos ter uma condição de guarda
+
+podemos ter o condicional Wi-Fi.
+
+Podemos ter uma ação nem uma cláusula de envio.
+
+Vamos verificar como que isso fica.
+
+Temos também a assinatura do evento a especificação do nome e um no evento consegue consegue o método
+
+por exemplo desenhar.
+
+Ela precisa obrigatoriamente de dois parâmetros uma figura de uma cor por exemplo e o evento imprimir
+
+necessita de um documento.
+
+Já o evento redesenhar o não necessita de nenhum parâmetro uma ação ou uma expressão procedural executada
+
+quando a transição ocorre está associada à operação embutida no objeto.
+
+Por exemplo contagem então se faz uma contagem em animais ou de animais ou cálculo cálculo X que recebe
+
+X e Y e dali retorna o Y Z.
+
+Não sei se a gente consegue fazer algumas operações indicar isso a própria condição de guarda como havia
+
+dito a experiência pode ser uma expressão e uma expressão booleana ligada a uma transição de estados.
+
+Somente quando a conexão é verdadeira a transição ocorre por exemplo o TC é igual a 5 segundos ou o
+
+número de pedidos ser maior que n ou fazer um saque se o saldo for maior do que a quantia que eu quero
+
+desfazer o saque não posso fazer um saque maior do que o que eu tenho na minha.
+
+Na minha conta não faria sentido então o outro modelo de diagrama de estados.
+
+Então o modelo de um estado de um elevador.
+
+Então temos nosso estado inicial.
+
+Repare que o nosso diagrama não possuem o estado final então o nosso diagrama o nosso estado inicial
+
+se dá no primeiro piso do primeiro piso ele pode subir apenas só consegue subir o andar.
+
+Então ele vai se mover para cima movendo se para cima ele pode ficar num estado de parado inativo pois
+
+se mover para baixo como também pode continuar se movendo pra cima e quando ele está em algum estado
+
+e eu preciso de novamente ele possa mover ele para o primeiro estado Ok temos aqui um modelo alternativo
+
+onde foi adicionado algumas variáveis como o item Malt significa o que significa que se ele ficar determinado
+
+tempo parado e olhe lá no estado dá estado laico se ele ficar um tempo parado se o elevador falhar o
+
+quê ele vai se mover para o primeiro andar certo temos também o poder de utilizar sua estados e fazer
+
+o quê e um jeito de Juninho entrar um pouco mais a fundo dentro de um único estado e saber o que está
+
+acontecendo naquele estado.
+
+Então Chuck estarmos podem se dar por estados em sequência ou em concorrência.
+
+Temos aqui então sob estados sequenciais.
+
+Repare que ontem o estado maior que é o Rani correndo certo.
+
+Só que quando estou correndo eu tenho o chumbo estados né.
+
+Então posso correr avançando recuando e chegando está no final certo.
+
+Também podemos ter sub estados em concorrência também sequenciais em concorrência em paralelo.
+
+Então temos nosso mesmo estado.
+
+Quando eu estou correndo para frente eu posso estar em SP plano B que eu posso estar em SP certo fico
+
+com sub estados em concorrência o movimento de um veículo por exemplo sendo representado aqui temos
+
+o nosso estado inicial.
+
+Se o acelerador foi acionado em marcha ré ele vai sair do estado parado e vai para o Estado movendo
+
+se para trás.
+
+Por conta dessa condicional ao freio sendo acionado ele vai para estado parado.
+
+Então ele pode por exemplo colocar a marcha para frente e o carro começa a se mover para frente ao acionar
+
+o freio.
+
+O nosso carro volta para estado parado e em determinado momento o carro que está em um estado parado
+
+ele pode finalizar do Estado sinalizar o uso daquele veículo.
+
+Art.
+
+Temos agora um primeiro exercício mas antes quero mostrar um pouquinho sobre o Basta vocês no diagrama
+
+de estado
+
+com o acesso aberto.
+
+Podemos Reinaldo da Machine indago em um diagrama de estado de máquina de estados no diagrama de estados
+
+você repara que temos aqui o estado inicial.
+
+Podemos colocar o Estado então temos nosso Estado.
+
+Um exemplo temos o estado 2.
+
+Podemos colocar aqui o estado final ou em estados finais certo para fazer a sequência.
+
+é só clicar aqui arrastar o estado do Estado.
+
+Vamos supor que ele possa ir para o estado 2 é bom estado ou ele pode ou não em estado final o mesmo
+
+acontece.
+
+2 estado 2 ele vai para o estado final certo.
+
+Podemos então utilizar aqui esse diagrama de estado.
+
+Aqui ninguém é o nosso presente.
+
+Ok espero que tenham gostado.
+
+Sugiro que você vasculha um pouco mais o assunto e explore um pouco mais esse diagrama.
+
+Essas as possibilidades de esse diagrama.
+
+Certo.
+
+Vamos voltar para o nosso exercício.
+
+Voltando aqui temos o nosso exercício um exercício não é criar um diagrama de estado considerando o
+
+movimento de um veículo andando para frente contemplando seus estados de troca de marchas.
+
+Certo.
+
+Então sugiro que você use um pouco o vídeo agora e faço exercício
+
+muito bem vamos para a solução na solução e olhe que nós estamos dentro de um estado superior chamado
+
+movendo se para frente e vamos verificar agora todas as possíveis trocas de marcha que podem ocorrer
+
+dentro dele.
+
+Então temos o nosso estado inicial dentro desse substrato movendo se para a frente onde temos o exemplo
+
+do início na marcha para o momento que estamos a marcha mas estamos movendo se em primeira marcha é
+
+o nosso Estado.
+
+Podemos então ir para a marcha 2 chegamos no estado movendo se em marcha em segunda marcha e esse estado
+
+nós podemos ir para a terceira marcha podemos voltar para a primeira.
+
+Podemos ir para um estado final e é finalizado o uso do carro por exemplo em marcha 2 da manhã.
+
+O mesmo ocorre nas trocas de marcha 3 4 e 5 lembrando que eu tenho estado na 4ª Marcha eu posso ir para
+
+o frio ou movendo se em quinta marcha não tem outro freio acionado algo acionado serei eu também finalizou.
+
+O uso do carro toda vez com freio chega no Estado.
+
+Sinal da CET temos o segundo exercício que cria um diagrama de estados que representa um jogo de xadrez.
+
+Não é necessário colocar os movimentos detalhados de cada peça apenas um alto nível.
+
+Segue o vídeo e faço exercício
+
+vamos lá com a solução temos então o estado inicial.
+
+As brancas jogam sempre primeiro e temos as vezes da das pretas.
+
+Então quando tem uma peça branca jogando o que pode ser feito é dado o xeque mate e a vitória das pretas
+
+se dá o jogo paralisado.
+
+Então chega num empate.
+
+O mesmo acontece na vez das pretas que pode se dar ao xeque mate e Vitória das brancas.
+
+Levar o xeque mate nas brancas o olho está paralisado e chega num empate.
+
+Xeque
+
+separei aqui algumas referências para você pesquisar um pouco mais explorar um pouco mais sobre esse
+
+diagrama que eu considero ser dos mais importantes na computação inclusive fora da computação.
+
+Nos ajuda bastante no dia a dia de trabalho
+
+espero que você tenha gostado nesta vídeo aula e tenha entendido todo o conceito do diagrama de estados
+
+e explorado o basta ou associar a ferramenta de sua preferência.
+
+Caso tenha ficado alguma dúvida mande a mensagem no polo discutir e conversar bastante está OK obrigado
+
+e até pelas mãos.
